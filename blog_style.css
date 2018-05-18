@@ -1,4 +1,25 @@
+html{
+	background-color: rgba(154, 186, 222, 1);
+	}
+.navigation{
+	list-style-type: none;
+    padding-top: : 5px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+    background-color: rgba(110, 124, 138, .2);
+    display: inline;
+	float: right;
+	display: block;
+	position: sticky;
+	text-align: right;
+	font-family: 'Lalezar', cursive;
+	text-align: center;
+	font-size: 20;
+	color:#52869D;
+	}
 h1{
+	position: absolute;
 	color:#254d64;
 	padding-top:5px;
 	padding-bottom:5px;
@@ -9,21 +30,24 @@ h1{
 	text-decoration: underline;
 		text-decoration-style: dotted;
 		text-decoration-color: #40738b;
-}
-image{
-	image: url('arch.jpg')
-	float: right;
+	border: 5px;
 	}
-h2{
+.h2{
+	position: absolute;
 	color: #40738b;
+	float: left;
 	font-family: 'Lalezar', cursive;
 	text-align: left;
 	font-size: 26;
 	}
-body{
+.body{
+	position: static;
 	max-width:800px;
-	background-image: url('arch.jpg');
-	/*background-color: rgba(165, 185, 199, 1);*/
 	text-align:left;
 	font-family: 'Lalezar', sans-serif;
+	}
+.arch{
+	image: url(arch.jpg);
+	position: static;
+	float: right;
 	}
