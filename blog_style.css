@@ -3,51 +3,60 @@ html{
 	}
 .navigation{
 	list-style-type: none;
-    padding-top: : 5px;
-	padding-bottom: 5px;
+    padding-top: : 3px;
+	padding-bottom: 3px;
 	padding-left: 20px;
 	padding-right: 20px;
     background-color: rgba(110, 124, 138, .2);
     display: inline;
 	float: right;
-	display: block;
+	margin-bottom: auto;
 	position: sticky;
 	text-align: right;
 	font-family: 'Lalezar', cursive;
 	text-align: center;
 	font-size: 20;
-	color:#52869D;
 	}
 h1{
-	position: absolute;
+	/*position: absolute;*/
 	color:#254d64;
+	display: block;
+	overflow: auto;
 	padding-top:5px;
 	padding-bottom:5px;
-	margin-bottom: 0;
+	margin-bottom: auto;
 	text-align:center;
 	font-family: futura LT extrabold;
-	font-size: 46px;
+	font-size: 36px;
 	text-decoration: underline;
 		text-decoration-style: dotted;
 		text-decoration-color: #40738b;
 	border: 5px;
+	text-indent: 100px;
 	}
 .h2{
-	position: absolute;
+	/*position: absolute;*/
 	color: #40738b;
 	float: left;
+	display: block;
+	overflow: auto;
 	font-family: 'Lalezar', cursive;
 	text-align: left;
 	font-size: 26;
+	margin-bottom: auto;
 	}
 .body{
-	position: static;
+	/*position: static;*/
 	max-width:800px;
+	display: block;
+	overflow: auto;
+	margin-bottom: auto;
 	text-align:left;
 	font-family: 'Lalezar', sans-serif;
 	}
 .arch{
 	image: url(arch.jpg);
+	display: block;
 	position: static;
 	float: right;
 	}
