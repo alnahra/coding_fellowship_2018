@@ -1,0 +1,72 @@
+body{
+		background-image:url('bricks.jpg');
+		background-attachment: fixed;
+		background-position: top center;
+		background-repeat: no-repeat;
+		background-color: rgba(116, 156, 176, .3);
+	}
+	h1{
+		color:#254d64;
+		padding:5px;
+		text-align:center;
+		font-family: futura LT extrabold;
+		font-size: 46px;
+		margin-bottom: auto;
+		/*border-style: groove;
+		border-color:#d3d5dc;
+		border-width: 4px;'*/
+	}
+	.heading{
+		max-width:600px;
+		margin:auto;
+		padding:15px;
+		border-radius: 10px;
+	}
+	.body{
+		max-width:800px;
+		margin:auto;
+		padding:5px;
+		border-width: 15px;
+		border-radius: 12px;
+		background-color: rgba(165, 185, 199, .9);
+	}
+	p{
+		text-align:center;
+		font-family: 'Montserrat', sans-serif;
+
+	}
+	h2{
+		text-align:left;
+		font-family: 'Lalezar', cursive;
+		font-size: 30px;
+		color:#52869D;
+	}
+	ul{
+		font-family: 'Montserrat', sans-serif;
+		font-size: 16px;
+		text-align:left;
+	}
+.sidenav {
+    height: 150px;
+    width: 120px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background: rgba(204, 204, 204, 0.3);
+	/*opacity: .1;
+	hover:{
+		opacity: 1;
+	}*/
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+.sidenav a {
+    padding: 2px 2px 2px 2px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #0E242B;
+    display: block;
+	font-family:futura;
+	text-align: right;
+}
