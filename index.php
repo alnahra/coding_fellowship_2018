@@ -6,9 +6,9 @@
 	</head>
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 	<div class='sidenav'>
-		<a href="about_me.html">about me</a>
-		<a href="history.html">history</a>
-		<a href="blog.html" target="blank">blog</a>
+		<a href="about_me.php">about me</a>
+		<a href="history.php">history</a>
+		<a href="blog.php" target="blank">blog</a>
 	</div>
 	<div class='heading'>
 		<h1>ALIA LEARNS THINGS</h1>

@@ -4,10 +4,10 @@
 <link rel='stylesheet' href='blog_style.css'/>
 <div class='navigation'>
 	<h3>
-		<a href="index.html">home</a>
-		<a href="about_me.html">about me</a>
-		<a href="history.html">history</a>
-		<a href="blog.html">blog</a>
+		<a href="index.php">home</a>
+		<a href="about_me.php">about me</a>
+		<a href="history.php">history</a>
+		<a href="blog.php">blog</a>
 	</h3>
 </div>
 <h1>FELLOWSHIP BLOG
@@ -25,9 +25,9 @@
 <div class='body'>
 	<p>
 		<ul>
-			<li><a href='more_info.html'>
+			<li><a href='more_info.php'>
 				More info about me</a></li>
-			<li><a href='weather.html'>
+			<li><a href='weather.php'>
 			My thoughts on the weather</a></li>
 		</ul>
 	</p>
