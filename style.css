@@ -4,6 +4,7 @@ body{
 		background-position: top center;
 		background-repeat: no-repeat;
 		background-color: rgba(116, 156, 176, .3);
+		display: inline-block;
 	}
 	h1{
 		color:#254d64;
@@ -29,6 +30,7 @@ body{
 		border-width: 15px;
 		border-radius: 12px;
 		background-color: rgba(165, 185, 199, .9);
+		align: center;
 	}
 	p{
 		text-align:center;
@@ -40,11 +42,13 @@ body{
 		font-family: 'Lalezar', cursive;
 		font-size: 30px;
 		color:#52869D;
+		display: inline-block;
 	}
 	ul{
 		font-family: 'Montserrat', sans-serif;
 		font-size: 16px;
 		text-align:left;
+		display: inline-block;
 	}
 .sidenav {
     height: 150px;

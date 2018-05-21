@@ -1,5 +1,5 @@
 <html>
-<title>MRP Blog</title>
+<title>About Alia</title>
 <link href="https://fonts.googleapis.com/css?family=Lalezar|Luckiest+Guy" rel="stylesheet">
 <link rel='stylesheet' href='blog_style.css'/>
 <div class='navigation'>
@@ -10,25 +10,27 @@
 		<a href="blog.html">blog</a>
 	</h3>
 </div>
-<h1>FELLOWSHIP BLOG
+<h1>
+	My Story
 </h1>
 <div class='h2'>
-	<h2>first days:
-	</h2>
-</div>
-<div class='arch'>
-	<img src='arch.jpg';
-		width=350px;;
-		height=500px;>
+	<br />
+	Early life
+	<br />
 </div>
 <div class='body'>
-	<p>
-		<ul>
-			<li><a href='more_info.html'>
-				More info about me</a></li>
-			<li><a href='weather.html'>
-			My thoughts on the weather</a></li>
-		</ul>
-	</p>
+	<br />
+	Born in Washington, DC in June of 1998
+	<br />
+</div>
+<div class='h2'>
+	<br />
+	College
+	<br />
+</div>
+<div class='body'>
+	<br />
+	Ever since
+	<br />
 </div>
 </html>
