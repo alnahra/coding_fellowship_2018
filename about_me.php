@@ -4,33 +4,42 @@
 <link rel='stylesheet' href='blog_style.css'/>
 <div class='navigation'>
 	<h3>
-		<a href="index.html">home</a>
-		<a href="about_me.html">about me</a>
-		<a href="history.html">history</a>
-		<a href="blog.html">blog</a>
+		<a href="index.php">home</a>
+		<a href="about_me.php">about me</a>
+		<a href="history.php">history</a>
+		<a href="blog.php">blog</a>
 	</h3>
 </div>
 <h1>
-	My Story
+	MY STORY
 </h1>
 <div class='h2'>
-	<br />
 	Early life
-	<br />
 </div>
+<br> <br> <br>
 <div class='body'>
-	<br />
 	Born in Washington, DC in June of 1998
-	<br />
 </div>
+<br> <br> <br>
 <div class='h2'>
-	<br />
 	College
-	<br />
 </div>
+<br> <br> <br>
 <div class='body'>
-	<br />
 	Ever since
-	<br />
+</div>
+<br> <br>
+<div class='h2'>
+	Contact Me!
+</div>
+<br> <br> <br> <br>
+<div class='contact_form'>
+	<form action="welcome_get.php" method="get">
+		Name: <input type="text" name="name"><br>
+		E-mail: <input type="text" name="email"><br><br>
+		Question: <textarea name="question" rows="5" cols="40"></textarea><br>
+		<input type="submit">
+		<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
+	</form>
 </div>
 </html>

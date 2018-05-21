@@ -14,14 +14,15 @@
 </h1>
 <div class='h2'>
 	<h2>first days:
-		<br />
 	</h2>
 </div>
+<br> <br> <br>
 <div class='arch'>
 	<img src='arch.jpg';
 		width=350px;;
 		height=500px;>
 </div>
+<br>
 <div class='body'>
 	<p>
 		<ul>

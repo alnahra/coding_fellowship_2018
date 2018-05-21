@@ -1,5 +1,5 @@
 <html>
-<title>Why MRP</title>
+<title>Contact Info</title>
 <link href="https://fonts.googleapis.com/css?family=Lalezar|Luckiest+Guy" rel="stylesheet">
 <link rel='stylesheet' href='blog_style.css'/>
 <div class='navigation'>
@@ -11,13 +11,16 @@
 	</h3>
 </div>
 <h1>
-	HOW DID WE GET HERE?
+	Contact Info
 </h1>
 <div class='h2'>
-	St. Louis' history of segregation
+	Your form has been sent!
 </div>
 <br> <br> <br> <br>
 <div class='body'>
-	In the early 1900s, St. Louis was a hub of
+	Welcome <?php echo $_GET["name"]; ?><br>
+	Your email address is: <?php echo $_GET["email"]; ?><br>
+	The question we recieved is: <?php echo $_GET["question"]; ?><br>
 </div>
+</body>
 </html>
