@@ -7,12 +7,14 @@ $weather = array("rain", "sunshine", "clouds", "hail", "sleet", "snow","wind");
 		some $weather[0]. At least we didn't get any $weather[3] or $weather[4]. <br> <br>";
 		/*be sure to put <br> after each line INSIDE QUOTATIONS*/
 $cities = array("Tokyo", "Mexico City", "New York City", "Mumbai", "Seoul",
-	"Shanghai", "Lagos", "Buenos Aires", "Cairo", "London");
+	"Shanghai", "Lagos", "Buenos Aires", "Cairo", "London", "Los Angelos", "Calcutta", "Osaka", "Beijing");
 	/*create the array using double quotes, commas go outside the quotes*/
 while ($a <= 10) {
 	/*list the array variables as $____[__],*/
+	sort ($cities); //sorts the array alphabetically
 	echo "$cities[0], $cities[1], $cities[2], $cities[3], $cities[4],
-	$cities[5], $cities[6], $cities[7], $cities[8], $cities[9] <br>";
+	$cities[5], $cities[6], $cities[7], $cities[8], $cities[9], $cities[10], $cities[11], $cities[12], $cities[13] <br>";
+
 }
 ?>
 </html>

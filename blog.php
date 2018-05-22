@@ -23,14 +23,36 @@
 		height=500px;>
 </div>
 <br>
-<div class='body'>
-	<p>
-		<ul>
-			<li><a href='more_info.php'>
-				More info about me</a></li>
-			<li><a href='weather.php'>
-			My thoughts on the weather</a></li>
-		</ul>
-	</p>
+<div class='row'>
+	<div class='leftcolumn'>
+		<div class='card'
+			<p>
+				<ul>
+				<li><a href='week_one.php'>
+					week one</a></li>
+					<li><a href='week_two.php'>
+					early bumps</a></li>
+				</ul>
+			</p>
+		</div>
+	</div>
+</div>
+<div class='h2'>
+		<h2>starting the project:
+	  	</h2>
+	<div class='row'
+		<div class='rightcolumn'>
+	    	<div class='card'>
+				<p>
+					<ul>
+					<li><a href='getting_data.php'>
+						getting data</a></li>
+						<li><a href='alternative_sources.php'>
+						alternative sources</a></li>
+					</ul>
+				</p>
+			</div>
+		</div>
+	</div>
 </div>
 </html>
