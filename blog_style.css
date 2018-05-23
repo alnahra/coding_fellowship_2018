@@ -1,0 +1,90 @@
+html{
+	background-color: rgba(154, 186, 222, 1);
+	padding: 20px;
+	}
+.navigation{
+	list-style-type: none;
+    padding-top: : 3px;
+	padding-bottom: 3px;
+	padding-left: 20px;
+	padding-right: 20px;
+    background-color: rgba(110, 124, 138, .2);
+    display: inline;
+	float: right;
+	font-family: futura, Charcoal, sans-serif;
+	font-size: 20;
+	position:sticky;
+	}
+h1{
+	/*position: absolute;*/
+	color:#254d64;
+	display: block;
+	overflow: auto;
+	margin-bottom: auto;
+	text-align:center;
+	font-family: futura LT extrabold, Charcoal, sans-serif;
+	font-size: 40px;
+	border: 5px;
+	text-indent: 100px;
+	}
+h2{
+	/*position: absolute;*/
+	color: #40738b;
+	float: left;
+	display: block;
+	overflow: auto;
+	font-family: 'Lalezar', Gadget, cursive;
+	text-align: left;
+	font-size: 26;
+	}
+.arch{
+	image: url(arch.jpg);
+	float: right;
+	overflow: auto;
+	display: block;
+	position: static;
+	}
+.post {
+	width: 500px;
+	background-color: #DEE9F3;
+	padding: 3px;
+	margin-top:10 px;
+	margin: 10px;
+	font-family: futura, Charcoal, sans-serif;
+	font-size: 17;
+	}
+/*.leftcolumn{
+	float: left;
+	width: 650px;
+	font-family: 'Lalezar', Gadget, sans-serif;
+	position: static;
+	max-width:250px;
+	display: block;
+	margin-bottom: auto;
+	}
+.rightcolumn{
+	float: left;
+	width: 650px;
+	padding-left: 20px;
+	font-family: 'Lalezar', Gadget, sans-serif;
+	position: static;
+	max-width:250px;
+	display: block;
+	margin-bottom: auto;
+	} */
+.contact_form {
+	height: 200px;
+	width: 300px;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background: rgba(204, 204, 204, 0.3);
+	overflow-x: hidden;
+	padding-top: 20px;
+	display: block;
+	position: static;
+	float: left;
+	text-align: center;
+	font-family: futura,  Charcoal, sans-serif;
+	color: #254d64;
+	}
