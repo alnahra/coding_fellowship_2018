@@ -11,8 +11,9 @@ html{
     background-color: rgba(110, 124, 138, .2);
     display: inline;
 	float: right;
-	font-family: futura;
+	font-family: futura, Charcoal, sans-serif;
 	font-size: 20;
+	position:sticky;
 	}
 h1{
 	/*position: absolute;*/
@@ -21,62 +22,59 @@ h1{
 	overflow: auto;
 	margin-bottom: auto;
 	text-align:center;
-	font-family: futura LT extrabold;
-	font-size: 36px;
+	font-family: futura LT extrabold, Charcoal, sans-serif;
+	font-size: 40px;
 	border: 5px;
 	text-indent: 100px;
 	}
-.h2{
+h2{
 	/*position: absolute;*/
 	color: #40738b;
 	float: left;
 	display: block;
 	overflow: auto;
-	font-family: 'Lalezar', cursive;
+	font-family: 'Lalezar', Gadget, cursive;
 	text-align: left;
 	font-size: 26;
 	}
-.leftcolumn{
+.arch{
+	image: url(arch.jpg);
+	float: right;
+	overflow: auto;
+	display: block;
+	position: static;
+	}
+.post {
+	width: 500px;
+	background-color: #DEE9F3;
+	padding: 3px;
+	margin-top:10 px;
+	margin: 10px;
+	font-family: futura, Charcoal, sans-serif;
+	font-size: 17;
+	}
+/*.leftcolumn{
 	float: left;
-	width: 75%;
-	font-family: 'Lalezar', sans-serif;
-	/*position: static;
+	width: 650px;
+	font-family: 'Lalezar', Gadget, sans-serif;
+	position: static;
 	max-width:250px;
 	display: block;
 	margin-bottom: auto;
-	float: left;*/
 	}
 .rightcolumn{
 	float: left;
-	width: 75%;
+	width: 650px;
 	padding-left: 20px;
-	/*position: static;
+	font-family: 'Lalezar', Gadget, sans-serif;
+	position: static;
 	max-width:250px;
 	display: block;
 	margin-bottom: auto;
-	float: left;
-	font-family: 'Lalezar', sans-serif;*/
-	}
-.card {
-	background-color: white;
-	padding: 20px;
-	margin-top:20 px;
-	}
-	/* Clear floats after the columns */
-.row:after {
-	content: ""
-	display: table;
-	clear:both;
-	}
-.arch{
-	image: url(arch.jpg);
-	display: block;
-	position: static;
-	float: right;
-	}
+	} */
 .contact_form {
-	height: 150px;
-	width: 120px;
+	height: 200px;
+	width: 300px;
 	z-index: 1;
 	top: 0;
 	left: 0;
@@ -85,7 +83,8 @@ h1{
 	padding-top: 20px;
 	display: block;
 	position: static;
-	float: right;
-	font-family: futura;
+	float: left;
+	text-align: center;
+	font-family: futura,  Charcoal, sans-serif;
 	color: #254d64;
 	}

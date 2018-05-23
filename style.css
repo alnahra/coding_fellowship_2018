@@ -10,7 +10,7 @@ body{
 		color:#254d64;
 		padding:5px;
 		text-align:center;
-		font-family: futura LT extrabold;
+		font-family: futura LT extrabold, Charcoal, sans-serif;
 		font-size: 46px;
 		margin-bottom: auto;
 		/*border-style: groove;
@@ -35,17 +35,17 @@ body{
 	}
 	p{
 		text-align:center;
-		font-family: 'Montserrat', sans-serif;
+		font-family: 'Montserrat', Helvetica, sans-serif;
 
 	}
 	h2{
 		text-align:center;
-		font-family: 'Lalezar', cursive;
+		font-family: 'Lalezar', Gadget, cursive;
 		font-size: 30px;
 		color:#52869D;
 	}
 	ul{
-		font-family: 'Montserrat', sans-serif;
+		font-family: 'Montserrat', Helvetica, sans-serif;
 		font-size: 16px;
 		text-align:left;
 	}
@@ -70,6 +70,6 @@ body{
     font-size: 20px;
     color: #0E242B;
     display: block;
-	font-family:futura;
+	font-family:futura, Geneva, sans-serif;
 	text-align: right;
 }

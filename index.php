@@ -1,9 +1,10 @@
 <html>
-	<head>
-		<title>STL Municipality Research Project</title>
-		<link rel='stylesheet' href='style.css'/>
-		<link href="https://fonts.googleapis.com/css?family=Lalezar|Luckiest+Guy" rel="stylesheet">
-	</head>
+<head>
+	<title>STL Municipality Research Project</title>
+	<link rel='stylesheet' href='style.css'/>
+	<link href="https://fonts.googleapis.com/css?family=Lalezar|Luckiest+Guy" rel="stylesheet">
+</head>
+<body>
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 	<div class='heading'>
 		<h1>ALIA LEARNS THINGS</h1>
@@ -39,4 +40,5 @@
 		echo $calendar->show();
 		?>
 	</body>
+</body>
 </html>
