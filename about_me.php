@@ -1,21 +1,14 @@
+<?php
+	include('include/boilerplate.php');
+	SiteHeader('About Alia');
+?>
 <html>
-<head>
-	<title>About Alia</title>
-	<link href="https://fonts.googleapis.com/css?family=Lalezar|Luckiest+Guy" rel="stylesheet">
 	<link rel='stylesheet' href='blog_style.css'/>
-</head>
+	<link rel='stylesheet' href='boilerplate_style.css' />
 <body>
-	<div class='navigation'>
-		<h3>
-			<a href="index.php">home</a>
-			<a href="about_me.php">about me</a>
-			<a href="history.php">history</a>
-			<a href="blog.php">blog</a>
-		</h3>
-	</div>
-	<h1>
-		MY STORY
-	</h1>
+	<?php
+		PageTitle('MY STORY')
+		?>
 	<h2>
 		Early life
 	</h2>

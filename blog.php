@@ -1,28 +1,12 @@
+<?php
+	include('include/boilerplate.php');
+	SiteHeader('MRP Blog');
+	PageTitle ('FELLOWSHIP BLOG')
+?>
 <html>
-<head>
-	<title>MRP Blog</title>
-	<link href="https://fonts.googleapis.com/css?family=Lalezar|Luckiest+Guy" rel="stylesheet">
 	<link rel='stylesheet' href='blog_style.css'/>
-</head>
+	<link rel='stylesheet' href='boilerplate_style.css' />
 <body>
-	<div class='navigation'>
-		<h3>
-			<a href="index.php">home</a>
-			<a href="about_me.php">about me</a>
-			<a href="history.php">history</a>
-			<a href="blog.php">blog</a>
-		</h3>
-	</div>
-	<h1>FELLOWSHIP BLOG
-	</h1>
-	<br>
-		<br> <br> <br>
-<div class='arch'>
-	<img src='arch.jpg';
-		width=350px;;
-		height=500px;>
-	</div>
-		<br> <br> <br>
 <h2>first days:
 	</h2>
 	<br> <br> <br> <br>
@@ -39,6 +23,7 @@
 				</p>
 			</div>
 		</div>
+		<br><br><br><br><br><br><br>
 	</div>
 	<h2>starting the project:
 	 	</h2>
@@ -56,6 +41,11 @@
 				</p>
 			</div>
 		</div>
+	</div>
+<div class='arch'>
+	<img src='/images/arch.jpg';
+		width=350px;;
+		height=500px;>
 	</div>
 </body>
 </html>
