@@ -12,6 +12,16 @@ h2{
 	text-align: left;
 	font-size: 26;
 	}
+h3{
+	position: absolute;
+	color: #DEE9F3;
+	float: left;
+	clear: both;
+	overflow: auto;
+	font-family: Lalezar;
+	text-align: left;
+	font-size: 20;
+}
 .post {
 	background-color: #DEE9F3;
 	padding: 3px;

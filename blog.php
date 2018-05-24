@@ -1,5 +1,6 @@
 <?php
 	include('include/boilerplate.php');
+	include('include/blog_posts.php');
 	SiteHeader('MRP Blog');
 	PageTitle ('FELLOWSHIP BLOG')
 ?>
@@ -15,7 +16,8 @@
 			<div class='post'
 				<p>
 					<ul>
-					<li><a href='week_one.php'>
+						<?php get_all_blog_posts();?>
+						<li><a href='view_blog_posts.php?blog_post_id=1'>
 						week one</a></li>
 						<li><a href='week_two.php'>
 						early bumps</a></li>
@@ -25,8 +27,9 @@
 		</div>
 		<br><br><br><br><br><br><br>
 	</div>
-	<h2>starting the project:
-	 	</h2>
+</h2>
+<h2>starting the project:
+	 </h2>
 		<br> <br> <br>
 	<div class='row'
 		<div class='rightcolumn'>
