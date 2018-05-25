@@ -1,13 +1,14 @@
 body{
-		background-image:url('/images/bricks.jpg');
+		background-color: #D3D5DD;
 		background-attachment: fixed;
 		background-position: top center;
 		background-repeat: no-repeat;
-		background-color: rgba(116, 156, 176, .3);
 		display: inline-block;
 	}
 	h1{
 		color:#254d64;
+		float: center;
+		text-align: center;
 		padding:5px;
 		text-align:center;
 		font-family: futura LT extrabold, Charcoal, sans-serif;
@@ -20,9 +21,11 @@ body{
 	.heading{
 		max-width:600px;
 		margin:auto;
+		float: center;
+		text-align: center;
 		padding:2px;
 		border-radius: 5px;
-		vertical-align: center
+		vertical-align: center;
 	}
 	.body{
 		max-width:800px;
@@ -32,6 +35,8 @@ body{
 		border-radius: 12px;
 		background-color: rgba(165, 185, 199, .9);
 		vertical-align: center;
+		float: center;
+		text-align: center;
 	}
 	p{
 		text-align:center;

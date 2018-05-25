@@ -22,8 +22,8 @@ function get_blog_post ($blog_post_id){
 		, array ('safe_post_version'=>$blog_post_id));
 	return $result -> fetch();
 }
-/*this is defining $blog_post as calling the function get_blog_post */
-$blog_post = get_blog_post($_REQUEST['blog_post_id']);
+/*this is defining $blog_post as calling the function get_blog_post, only use when actually calling
+$blog_post = get_blog_post($_REQUEST['blog_post_id']); */
 
 /*this is to call all of the blog posts on the index blog page */
 function get_all_blog_posts(){

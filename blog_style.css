@@ -1,5 +1,5 @@
 html{
-	background-color: rgba(154, 186, 222, 1);
+	background-color: #D3D5DD;
 	padding: 10px;
 	}
 h2{
@@ -23,7 +23,7 @@ h3{
 	font-size: 20;
 }
 .post {
-	background-color: #DEE9F3;
+	background-color: #A5B8C7;
 	padding: 3px;
 	margin-top:10px;
 	margin: 10px;
@@ -48,7 +48,7 @@ h3{
 	z-index: 1;
 	top: 0;
 	left: 0;
-	background: rgba(204, 204, 204, 0.3);
+	background: rgba(165, 184, 199, .5);
 	overflow-x: hidden;
 	padding-top: 20px;
 	display: block;
