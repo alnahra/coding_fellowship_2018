@@ -8,7 +8,7 @@ h2{
 	float: left;
 	clear: both;
 	overflow: auto;
-	font-family: Lalezar;
+	font-family: Lalezar, Gadget, cursive;
 	text-align: left;
 	font-size: 26;
 	}
@@ -33,6 +33,7 @@ h3{
 	display: inline;
 	float: left;
 	clear: both;
+	width: 40%;
 	}
 .arch{
 	position: static;

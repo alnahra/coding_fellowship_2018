@@ -6,7 +6,7 @@
 			<link href='https://fonts.googleapis.com/css?family=Lalezar|Luckiest+Guy' rel='stylesheet;>
 			<link rel='stylesheet' href='/boilerplate_style.css'/>
 		</head>
-		<body>
+			<body>
 			<div class='navigation'>
 				<h3>
 					<a href='index.php'>home</a>
@@ -15,7 +15,7 @@
 					<a href='blog.php'>blog</a>
 				</h3>
 			</div>
-		</body>
+			</body>
 		</html>";
 		}
 			function PageTitle($page) {

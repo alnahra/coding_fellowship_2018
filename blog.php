@@ -19,7 +19,7 @@
 						<?php get_all_blog_posts();?>
 						<li><a href='view_blog_posts.php?blog_post_id=1'>
 						week one</a></li>
-						<li><a href='week_two.php'>
+						<li><a href='view_blog_posts.php?blog_post_id=2'>
 						early bumps</a></li>
 					</ul>
 				</p>
@@ -36,7 +36,7 @@
 	    	<div class='post'>
 				<p>
 					<ul>
-						<li><a href='getting_data.php'>
+						<li><a href='view_blog_posts.php?blog_post_id=3'>
 						getting data</a></li>
 						<li><a href='alternative_sources.php'>
 						alternative sources</a></li>
