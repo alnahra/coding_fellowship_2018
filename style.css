@@ -4,6 +4,8 @@ body{
 		background-position: top center;
 		background-repeat: no-repeat;
 		display: inline-block;
+		float: inherit;
+		width: auto;
 	}
 	h1{
 		color:#254d64;
@@ -14,12 +16,13 @@ body{
 		font-family: futura LT extrabold, Charcoal, sans-serif;
 		font-size: 46px;
 		margin-bottom: auto;
+		width: 100%;
 		/*border-style: groove;
 		border-color:#d3d5dc;
 		border-width: 4px;'*/
 	}
 	.heading{
-		max-width:600px;
+		width: 100%;
 		margin:auto;
 		float: center;
 		text-align: center;
@@ -27,8 +30,8 @@ body{
 		border-radius: 5px;
 		vertical-align: center;
 	}
-	.body{
-		max-width:800px;
+	.text{
+		width:90%;
 		margin:auto;
 		padding:5px;
 		border-width: 5px;
@@ -41,7 +44,6 @@ body{
 	p{
 		text-align:center;
 		font-family: 'Montserrat', Helvetica, sans-serif;
-
 	}
 	h2{
 		text-align:center;

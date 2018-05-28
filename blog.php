@@ -5,12 +5,17 @@
 	PageTitle ('FELLOWSHIP BLOG')
 ?>
 <html>
+	<link rel='stylesheet' href='boilerplate_style.css'/>
 	<link rel='stylesheet' href='blog_style.css'/>
-	<link rel='stylesheet' href='boilerplate_style.css' />
 <body>
 <h2>first days:
 	</h2>
 	<br> <br> <br> <br>
+	<div class='arch'>
+		<img src='/images/arch.jpg';
+			width=350px;
+			height=500px;>
+		</div>
 	<div class='row'>
 		<div class='leftcolumn'>
 			<div class='post'
@@ -44,11 +49,6 @@
 				</p>
 			</div>
 		</div>
-	</div>
-<div class='arch'>
-	<img src='/images/arch.jpg';
-		width=350px;;
-		height=500px;>
 	</div>
 </body>
 </html>

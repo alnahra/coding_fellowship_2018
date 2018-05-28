@@ -15,19 +15,16 @@
 		<a href="blog.php" target="blank">blog</a>
 	</div>
 	<br> <br> <br>
-	<div class='body'>
+	<div class='text'>
 		<body>
 			<p>Welcome to the St. Louis Municipality Research Project!</p>
-			<h2>About me</h2>
-			<p>I'm a student at Washington University in St. Louis, Missouri.
-				I'm currently learning to code so that I can complete sociological
-				research on the various municipalities around the St. Louis metro area.
-				<br><br>
+			<h2>About</h2>
+			<p>
 				The goal of this project is to combine data across municipalities
 				(of which there are around 90 in the St. Louis metro area), and conduct
 				analyses on this aggregated data once compiled.
 			</p>
-		<body>
+		</body>
 	</div>
 	<br><br><br>
 	<head>

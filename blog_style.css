@@ -16,7 +16,7 @@ h3{
 	position: absolute;
 	color: #DEE9F3;
 	float: left;
-	clear: both;
+	clear: all;
 	overflow: auto;
 	font-family: Lalezar;
 	text-align: left;
@@ -30,17 +30,28 @@ h3{
 	font-family: futura, Charcoal, sans-serif;
 	font-size: 17;
 	width: 64%;
-	display: inline;
+	clear: all;
 	float: left;
-	clear: both;
-	width: 40%;
 	}
+.post2 {
+	background-color: #A5B8C7;
+	padding: 10px;
+	margin-top:10px;
+	margin: 10px;
+	font-family: futura, Charcoal, sans-serif;
+	font-size: 17;
+	width: 97%;
+	clear: all;
+	float: left;
+	overflow: auto;
+}
 .arch{
-	position: static;
 	float: right;
-	display: inline;
-	width: 32%
-	clear: left;
+	width: 32%;
+	clear: all;
+	overflow: auto;
+	margin: 10px;
+
 	}
 .contact_form {
 	height: 200px;

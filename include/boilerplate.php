@@ -8,12 +8,12 @@
 		</head>
 			<body>
 			<div class='navigation'>
-				<h3>
+				<body>
 					<a href='index.php'>home</a>
 					<a href='about_me.php'>about me</a>
 					<a href='history.php'>history</a>
 					<a href='blog.php'>blog</a>
-				</h3>
+				</body>
 			</div>
 			</body>
 		</html>";
