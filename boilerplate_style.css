@@ -1,0 +1,29 @@
+h1{
+	position: absolute;
+	color: #254d64;
+	display: block;
+	overflow: auto;
+	margin-bottom: auto;
+	text-align: center;
+	font-family: futura LT extrabold, Charcoal, sans-serif;
+	font-size: 40px;
+	border: 5px;
+	text-indent: 100px;
+}
+.navigation{
+	list-style-type: none;
+	float: right;
+	position: fixed;
+		right: 50;
+		top: 45;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-bottom: 3px;
+	margin-top: 5px;
+    background-color: rgba(110, 124, 138, .2);
+    display: inline;
+	font-family: futura, Geneva, sans-serif;
+	font-size: 20;
+	}
