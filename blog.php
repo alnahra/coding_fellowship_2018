@@ -1,8 +1,8 @@
 <?php
-	include('include/boilerplate.php');
-	include('include/blog_posts.php');
+
+	include('include/include_all.php');
 	SiteHeader('MRP Blog');
-	PageTitle ('FELLOWSHIP BLOG')
+	PageTitle ('FELLOWSHIP BLOG');
 ?>
 <html>
 	<link rel='stylesheet' href='boilerplate_style.css'/>
@@ -21,30 +21,15 @@
 			<div class='post'
 				<p>
 					<ul>
-						<?php get_all_blog_posts();?>
-						<li><a href='view_blog_posts.php?blog_post_id=1'>
-						week one</a></li>
-						<li><a href='view_blog_posts.php?blog_post_id=2'>
-						early bumps</a></li>
-					</ul>
-				</p>
-			</div>
-		</div>
-		<br><br><br><br><br><br><br>
-	</div>
-</h2>
-<h2>starting the project:
-	 </h2>
-		<br> <br> <br>
-	<div class='row'
-		<div class='rightcolumn'>
-	    	<div class='post'>
-				<p>
-					<ul>
-						<li><a href='view_blog_posts.php?blog_post_id=3'>
-						getting data</a></li>
-						<li><a href='alternative_sources.php'>
-						alternative sources</a></li>
+						<?php
+							$blog_list=get_all_blog_posts();
+							foreach ($blog_list as $post) {
+							echo "
+							<p>
+							<li><a href='view_blog_posts.php?blog_post_id=$post[blog_post_id]'> $post[title]</a></li>
+							</p>";
+							}
+						?>
 					</ul>
 				</p>
 			</div>

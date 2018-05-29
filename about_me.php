@@ -1,5 +1,5 @@
 <?php
-	include('include/boilerplate.php');
+	include('include/include_all.php');
 	SiteHeader('About Alia');
 ?>
 <html>

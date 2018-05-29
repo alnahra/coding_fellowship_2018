@@ -1,6 +1,6 @@
 <?php
 include('config/config.php');
-include('include/db_query.php');
+include('include/include_all.php');
 
 /* this function allows me to add items into the inventory we created for grocery items */
 function insert_inventory_item($name, $description, $category){
@@ -33,7 +33,7 @@ function get_item ($inventory_id){
 }
 /* WHERE inventory_id = :$inventory_id
 	", array ('inventory_id'=>$inventory_id)" */
-	
+
 /* this calls the function get_item, because the $result is only defined within the function
 the name of $inventory_item doesn't matter, as long as it matches what you var_dump*/
 $inventory_item = get_item (3);

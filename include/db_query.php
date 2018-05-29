@@ -1,5 +1,4 @@
 <?php
-
 //Use the values from config.php to make a connection to the database. Since this
 //isn't in a function, it will happen automatically right now, but you could
 //easily wrap it in a function if you want to control when the db connection is

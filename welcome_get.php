@@ -1,5 +1,5 @@
 <?php
-	include('include/boilerplate.php');
+	include('include/include_all.php');
 	?>
 <html>
 <title>Contact Info</title>
