@@ -16,7 +16,6 @@
 		echo $calendar->show();
 		?>
 <h2>
-	<br><br><br><br><br><br><br><br><br><br><br><br>
 	Contact Me
 	</h2>
 <br> <br> <br> <br>
