@@ -1,10 +1,10 @@
 html{
-	background-color: #D3D5DD;
+	background-color: #F7FBFC;
 	padding: 10px;
 	}
 h2{
 	position: absolute;
-	color: #40738b;
+	color: #498274;
 	float: left;
 	clear: both;
 	overflow: auto;
@@ -14,7 +14,7 @@ h2{
 	}
 h3{
 	position: absolute;
-	color: #DEE9F3;
+	color: #498274;
 	float: left;
 	clear: all;
 	overflow: auto;
@@ -23,7 +23,7 @@ h3{
 	font-size: 20;
 }
 .post {
-	background-color: #A5B8C7;
+	background-color: #E7EEEE;
 	padding: 3px;
 	margin-top:10px;
 	margin: 10px;
@@ -34,7 +34,7 @@ h3{
 	float: left;
 	}
 .post2 {
-	background-color: #A5B8C7;
+	background-color: #E7EEEE;
 	padding: 10px;
 	margin-top:10px;
 	margin: 10px;
@@ -51,7 +51,6 @@ h3{
 	clear: all;
 	overflow: auto;
 	margin: 10px;
-
 	}
 .contact_form {
 	height: 200px;
@@ -59,7 +58,7 @@ h3{
 	z-index: 1;
 	top: 0;
 	left: 0;
-	background: rgba(165, 184, 199, .5);
+	background-color: rgba(122, 192, 179, .25);
 	overflow-x: hidden;
 	padding-top: 20px;
 	display: block;
@@ -67,5 +66,5 @@ h3{
 	float: left;
 	text-align: center;
 	font-family: futura,  Charcoal, sans-serif;
-	color: #254d64;
+	color: #498274;
 	}

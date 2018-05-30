@@ -1,5 +1,4 @@
 <?php
-
 	include('include/include_all.php');
 	SiteHeader('MRP Blog');
 	PageTitle ('FELLOWSHIP BLOG');

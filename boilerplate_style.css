@@ -1,6 +1,7 @@
 h1{
 	position: absolute;
-	color: #254d64;
+	margin-left: 25%;
+	color: #224337;
 	display: block;
 	overflow: auto;
 	margin-bottom: auto;
@@ -8,7 +9,6 @@ h1{
 	font-family: futura LT extrabold, Charcoal, sans-serif;
 	font-size: 40px;
 	border: 5px;
-	text-indent: 100px;
 }
 .navigation{
 	list-style-type: none;

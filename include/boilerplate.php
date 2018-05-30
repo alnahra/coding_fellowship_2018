@@ -10,7 +10,7 @@
 			<div class='navigation'>
 				<body>
 					<a href='index.php'>home</a>
-					<a href='about_me.php'>about me</a>
+					<a href='events.php'>events</a>
 					<a href='history.php'>history</a>
 					<a href='blog.php'>blog</a>
 				</body>

@@ -36,7 +36,7 @@
 		Because funding for all of these services pulls from local taxes, maintaining socioeconomic and racial homogeneity in areas with these amenities outstanding was imperative to residents.
 		This limited public services to the wealthy, white suburbs and functionally removed them from inner-city areas that actually needed the money.
 		</div>
-	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 	<h2>
 		Contemporary effects
 	</h2>
