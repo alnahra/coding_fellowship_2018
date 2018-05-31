@@ -20,3 +20,10 @@ echo "
 			</div>
 		<br><br><br><br><br><br><br>
 		</div>";
+$comments=post_comments($_REQUEST['blog_post_id']);
+	foreach ($comments as $comment) {
+		echo "
+		<h3> ".$comment['author_name']." on  ".$comment['date_posted']." </h3>
+		<div class='comment'> ".$comment['comment']." </div>
+		";
+}

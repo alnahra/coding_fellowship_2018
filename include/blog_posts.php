@@ -28,10 +28,17 @@ function get_blog_post($blog_post_id){
 
 	return $result;
 }
-
-
-/*this is defining $blog_post as calling the function get_blog_post, only use when actually calling
-$blog_post = get_blog_post($_REQUEST['blog_post_id']); */
+//this function defines the variable $blog_post_id within it and calls for all the info from comments table
+function post_comments($blog_post_id){
+	$result = dbQuery("
+		SELECT *
+		FROM comments
+		WHERE blog_post_id = :blog_post_id
+		", array(
+			'blog_post_id' => $blog_post_id
+		))->fetchAll();
+	return $result;
+}
 
 /*this is to call all of the blog posts on the index blog page */
 function get_all_blog_posts(){
