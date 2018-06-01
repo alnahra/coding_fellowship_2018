@@ -1,4 +1,5 @@
 <?php
+$blog_post_id = $_REQUEST['blog_post_id'];
 	include('include/include_all.php');
 	SiteHeader('MRP Blog');
 	PageTitle ('FELLOWSHIP BLOG');
@@ -8,18 +9,38 @@ echo "
 	//$blog_list=get_all_blog_posts();
 	$post=get_blog_post($_REQUEST['blog_post_id']);
 	//var_dump($post);
-	echo "<h2>$post[title]</h2>
-		<body>$post[author] | $post[date]</body>
-		<div class='row'>
-			<div class='leftcolumn'>
-				<div class='post'>
-				<p>
-					$post[body]</div>
-				</p>
-				</div>
+echo "<h2>$post[title]</h2>
+	<body>$post[author] | $post[date]</body>
+	<div class='row'>
+		<div class='leftcolumn'>
+			<div class='post'>
+			<p>
+				$post[body]</div>
+			</p>
 			</div>
-		<br><br><br><br><br><br><br>
-		</div>";
+		</div>
+	<br><br><br><br><br><br><br>
+	</div>";
+//this creates the form that users input comments into
+echo"
+	<form action='' method='post'>
+		Name:
+		<input type='text' name='author_name' /><br />
+
+		Date:
+		<input type='date' name='date_posted' /><br />
+		<br>
+
+		Comment:
+		<textarea name ='comment', rows='5', cols='40'></textarea>
+		<br/><br/>
+			<input type='submit' name='Submit' value='post your comment' />
+	</form>";
+
+if (isset($_REQUEST['Submit'])) {
+ 	SubmitComment($blog_post_id);
+}
+
 $comments=post_comments($_REQUEST['blog_post_id']);
 	foreach ($comments as $comment) {
 		echo "

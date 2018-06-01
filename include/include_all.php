@@ -5,4 +5,5 @@
 
 	include('include/boilerplate.php');
 	include('include/blog_posts.php');
+	include('include/comments.php');
 ?>
