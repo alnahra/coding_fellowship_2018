@@ -1,7 +1,7 @@
 html{
 	background-color: #F7FBFC;
 	padding: 10px;
-	}
+}
 h2{
 	position: absolute;
 	color: #498274;
@@ -11,7 +11,7 @@ h2{
 	font-family: Lalezar, Gadget, cursive;
 	text-align: left;
 	font-size: 26;
-	}
+}
 h3{
 	position: absolute;
 	color: #498274;
@@ -29,10 +29,10 @@ h3{
 	margin: 10px;
 	font-family: futura, Charcoal, sans-serif;
 	font-size: 17;
-	width: 64%;
+	width: 60%;
 	clear: all;
 	float: left;
-	}
+}
 .post2 {
 	background-color: #E7EEEE;
 	padding: 10px;
@@ -51,10 +51,10 @@ h3{
 	clear: all;
 	overflow: auto;
 	margin: 10px;
-	}
+}
 .contact_form {
-	height: 200px;
-	width: 300px;
+	height: 210px;
+	width: 310px;
 	z-index: 1;
 	top: 0;
 	left: 0;
@@ -68,4 +68,4 @@ h3{
 	text-align: center;
 	font-family: futura,  Charcoal, sans-serif;
 	color: #498274;
-	}
+}

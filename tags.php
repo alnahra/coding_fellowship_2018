@@ -17,6 +17,6 @@ function post_tags($tag_id){
 $tag_id=post_tags($_REQUEST['tag_id']);
 	foreach ($tag_id as $tag) {
 		echo "<h3> ".$tag['tag_id']." </h3>";
-}
+	}
 
 ?>

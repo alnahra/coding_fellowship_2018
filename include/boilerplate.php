@@ -1,5 +1,5 @@
 <?php
-	function SiteHeader($title) {
+	function site_header($title) {
 		echo "<html>
 		<head>
 			<title>$title</title>
@@ -18,7 +18,7 @@
 			</body>
 		</html>";
 		}
-			function PageTitle($page) {
+			function page_title($page) {
 				echo "<h1>$page</h1>
 				<br> <br> <br><br><br>";
 			}

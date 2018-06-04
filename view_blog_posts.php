@@ -1,15 +1,16 @@
 <?php
 $blog_post_id = $_REQUEST['blog_post_id'];
 	include('include/include_all.php');
-	SiteHeader('MRP Blog');
-	PageTitle ('FELLOWSHIP BLOG');
+	site_header('MRP Blog');
+	page_title ('FELLOWSHIP BLOG');
 echo "
 	<link rel='stylesheet' href='boilerplate_style.css'/>
 	<link rel='stylesheet' href='blog_post_style.css'/> ";
 	//$blog_list=get_all_blog_posts();
 	$post=get_blog_post($_REQUEST['blog_post_id']);
 	//var_dump($post);
-echo "<h2>$post[title]</h2>
+echo "
+	<h2>$post[title]</h2>
 	<body>$post[author] | $post[date]</body>
 	<div class='row'>
 		<div class='leftcolumn'>
@@ -38,7 +39,7 @@ echo"
 	</form>";
 
 if (isset($_REQUEST['Submit'])) {
- 	SubmitComment($blog_post_id);
+ 	submit_comment($blog_post_id);
 }
 
 $comments=post_comments($_REQUEST['blog_post_id']);
@@ -47,4 +48,4 @@ $comments=post_comments($_REQUEST['blog_post_id']);
 		<h3> ".$comment['author_name']." on  ".$comment['date_posted']." </h3>
 		<div class='comment'> ".$comment['comment']." </div>
 		";
-}
+	}

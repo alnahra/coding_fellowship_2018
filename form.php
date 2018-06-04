@@ -1,7 +1,7 @@
 <?php
 
 function SubmitApplication($Name, $Phone, $Position){
-	//name of these variable don't matter, they jsut have to match when you reference them within the function
+	//name of these variable don't matter, they just have to match when you reference them within the function
 	die("
 		<h1>
 			$Name just applied

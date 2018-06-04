@@ -1,6 +1,6 @@
 <?php
 //this ties the comments stuff to a specific post
-function SubmitComment($blog_post_id){
+function submit_comment($blog_post_id){
 	$author_name = $_REQUEST['author_name'];
 	$date_posted = $_REQUEST['date_posted'];
 	$comment = $_REQUEST['comment'];
