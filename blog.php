@@ -1,5 +1,13 @@
 <?php
 	include('include/include_all.php');
+
+		if(isset($_REQUEST['Send'])) {
+
+			send_contact();
+
+			send_email();
+		}
+
 	site_header('MRP Blog');
 	page_title ('FELLOWSHIP BLOG');
 ?>
@@ -7,7 +15,7 @@
 	<link rel='stylesheet' href='boilerplate_style.css'/>
 	<link rel='stylesheet' href='blog_style.css'/>
 <body>
-	<h2>first days:
+	<h2>FIRST DAYS:
 		</h2>
 		<br> <br> <br> <br>
 		<div class='arch'>
@@ -40,7 +48,7 @@
 	</h2>
 	<div class='contact_form'>
 		<?php echo"
-		<form action='include/mail.php' method='POST'>
+		<form action='' method='POST'>
 			Name: <input type='text'
 				name='name'
 				id='name'
@@ -62,8 +70,9 @@
 				cols='25'
 				required='true'
 				class='textarea-field'></textarea><br>
-			<input type='submit' value='Send'><input type='reset' value='Clear'>
-			</form>"; ?>
+			<input type='submit' name='Send' value='Send'><input type='reset' value='Clear'>
+			</form>";
+			?>
 	</div>
 </body>
 </html>

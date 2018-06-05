@@ -24,6 +24,7 @@ echo "
 	</div>";
 //this creates the form that users input comments into
 echo"
+	<div class='comment_box'>
 	<form action='' method='post'>
 		Name:
 		<input type='text' name='author_name' /><br />
@@ -36,7 +37,9 @@ echo"
 		<textarea name ='comment', rows='5', cols='40'></textarea>
 		<br/><br/>
 			<input type='submit' name='Submit' value='post your comment' />
-	</form>";
+	</form>
+	</div>
+	<br><br>";
 
 if (isset($_REQUEST['Submit'])) {
  	submit_comment($blog_post_id);
@@ -45,7 +48,13 @@ if (isset($_REQUEST['Submit'])) {
 $comments=post_comments($_REQUEST['blog_post_id']);
 	foreach ($comments as $comment) {
 		echo "
-		<h3> ".$comment['author_name']." on  ".$comment['date_posted']." </h3>
-		<div class='comment'> ".$comment['comment']." </div>
+		<div class='row'>
+			<div class='leftcolumn'>
+				<div class='comment'>
+					<i> ".$comment['author_name']." on ".$comment['date_posted']." said: </i><br>
+					".$comment['comment']." <br><br>
+				</div>
+			</div>
+		</div>
 		";
 	}
