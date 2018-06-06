@@ -69,3 +69,14 @@ h3{
 	font-family: futura,  Charcoal, sans-serif;
 	color: #498274;
 }
+.thanks {
+	position: inherit;
+	text-align: center;
+	color: #498274;
+	clear: all;
+	overflow: auto;
+	font-family: Lalezar, Gadget, cursive;
+	padding: 10px;
+	background-color: rgba(110, 124, 138, .2);
+	font-size: 26;
+}

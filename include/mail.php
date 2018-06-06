@@ -61,11 +61,14 @@ function send_email(){
 			die($output);
 		}
 		else{
-			$output = 'Thanks, '.$name .'. Your thoughts are appreciated.';
-			die($output);
+			function redirect($url, $permanent = false){
+			    if (headers_sent() === false){
+			        header('Location: ' . $url, true, ($permanent === true) ? 301 : 302);
+			    }
+			    exit();
+			}
+
+			redirect('contact_success.php', false);
 		}
-
-phpversion(7.2);
-
 }
 ?>
