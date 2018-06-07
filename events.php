@@ -10,10 +10,10 @@
 	</head>
 <body>
 	<br><br><br>
-	<h1>
-		Justice System Activism
-	</h1>
-	<br><br><br><br><br><br>
+	<div class='calendar'>
+		Activism in St. Louis
+	</div>
+	<br><br><br>
 		<?php
 		include 'calendar.php';
 		$calendar = new Calendar();

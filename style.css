@@ -6,17 +6,18 @@ body{
 	background-repeat: no-repeat;
 	display: inline-block;
 	float: inherit;
-	width: auto;
 	}
 h1{
 	color:#224337;
-	float: right;
+	float: middle;
+	display: inline-block;
 	text-align: center;
 	padding:10px;
 	font-family: futura LT extrabold, Charcoal, sans-serif;
 	font-size: 46px;
 	margin-bottom: auto;
-	margin-left: 200px;
+	margin-left: 45%;
+	width: 95%;
 	}
 .sidenav {
     height: 100px;

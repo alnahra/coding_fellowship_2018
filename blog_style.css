@@ -2,6 +2,16 @@ html{
 	background-color: #F7FBFC;
 	padding: 10px;
 }
+.calendar{
+	color:#224337;
+	display: inline-block;
+	text-align: left;
+	font-family: futura LT extrabold, Charcoal, sans-serif;
+	font-size: 46px;
+	margin-left: 29%;
+	margin-bottom: auto;
+	width: 95%;
+}
 h2{
 	position: absolute;
 	color: #498274;

@@ -10,7 +10,8 @@
 	<body>
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 		<div class='heading'>
-			<h1>THE (IN)JUSTICE SYSTEM: <br>
+			<h1>THE CRIMINAL <br>
+				(IN)JUSTICE SYSTEM: <br>
 				ST. LOUIS, MO</h1>
 		</div>
 		<div class='sidenav'>
