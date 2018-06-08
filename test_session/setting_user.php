@@ -1,7 +1,16 @@
 <?php
 include('include/include_all.php');
 
+if(isset($_REQUEST['submit'])){
 
+		function redirect($url, $permanent = false){
+			if (headers_sent() === false){
+				header('Location: ' . $url, true, ($permanent === true) ? 301 : 302);
+			}
+			exit();
+		}
+		redirect('verifying_login.php', false);
+}
 
 echo "
 <html>
@@ -18,10 +27,3 @@ echo "
 	</form>
 </html>
 ";
-
-if(isset($_REQUEST['Submit'])){
-
-	redirect('test_session/verifying_login.php');
-}
-
-?>

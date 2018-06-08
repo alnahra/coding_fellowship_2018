@@ -15,19 +15,10 @@ function SubmitApplication($Name, $Phone, $Position){
 $Errors = array();
 //if statement needs to be above the form
 if(isset($_REQUEST['JobApplication'])){
-
-	// ! means not, could be used to say $_REQUEST is empty
-	//(trim($_REQUEST['Name']) would remove white space first)
 	if($_REQUEST['Name'] == ''){
 		//single = sets value equal to variable, double == compares if they are the same
 		$Errors ['Name'] = "required";
-	//_REQUEST ['Name'] value being empty
 	}
-
-ValidateFormField('Name');
-ValidateEmailField('Email');
-//this is not the correct form to actually make it happen, but we should be able to make a function that
-//validates for us without having to re-write all the code over and over
 
 	if($_REQUEST['Phone'] == ''){
 		$Errors ['Phone'] = "required";
@@ -52,8 +43,12 @@ echo "
 </h1>";
 
 if(sizeof($Errors) > 0){
-	echo "
-		THERE WERE ERRORS";
+	foreach($Errors as $Index=>$Error){
+		echo "
+		<div>
+			Error in the $Index field $Error
+		</div>;"
+	}
 }
 
 echo
@@ -61,7 +56,7 @@ echo
 "
 <form action='' method='post'>
         Name:
-        <input type='text' name='Name' value='$_REQUEST[Name]'/><br />
+        <input type='text' name='Name' value='".@$_REQUEST[Name]."'/><br />
 
         Phone:
         <input type='text' name='Phone' /><br />
