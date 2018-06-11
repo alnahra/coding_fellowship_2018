@@ -1,12 +1,18 @@
 <?php
 //to log someone in
-function verify_user($username, $password){
+function attempt_login($username, $password){
 	$result = dbQuery("
 	SELECT *
 	FROM users
 	WHERE username = '$username' AND password = '$password'
 	")->fetch();
-	return $result;
+
+	if(!empty($result) && !$result){
+		$_SESSION['user_id'] = $result['username'];
+	}
+		else{
+			$_SESSION = array();
+		}
 }
 
 //adding to grocery items inventory

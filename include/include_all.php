@@ -9,3 +9,5 @@
 	include('include/comments.php');
 	include('include/mail.php');
 ?>
+
+<script src="include/jquery.js"></script>

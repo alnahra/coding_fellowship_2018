@@ -1,6 +1,15 @@
 <?php
 	include('include/include_all.php');
 ?>
+
+<script type='text/javascript'>
+$(document).ready(
+	function(){
+		$('body').fadeIn(5000);
+	}
+);
+</script>
+
 <html>
 	<head>
 		<title>STL Municipality Research Project</title>
