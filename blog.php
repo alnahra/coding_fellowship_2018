@@ -8,7 +8,7 @@
 			send_email();
 		}
 
-	site_header('MRP Blog');
+	site_header('ST. Louis PRP Blog');
 	page_title ('FELLOWSHIP BLOG');
 ?>
 <html>

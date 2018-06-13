@@ -12,7 +12,7 @@ $(document).ready(
 
 <html>
 	<head>
-		<title>STL Municipality Research Project</title>
+		<title>STL Police Research Project</title>
 		<link rel='stylesheet' href='style.css'/>
 		<link href="https://fonts.googleapis.com/css?family=Lalezar|Luckiest+Guy" rel="stylesheet">
 	</head>

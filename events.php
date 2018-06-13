@@ -1,6 +1,6 @@
 <?php
 	include('include/include_all.php');
-	site_header('MRP Events');
+	site_header('PRP Events');
 ?>
 <html>
 <link rel='stylesheet' href='boilerplate_style.css'/>

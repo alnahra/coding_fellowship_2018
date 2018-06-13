@@ -7,7 +7,7 @@ function attempt_login($username, $password){
 	WHERE username = '$username' AND password = '$password'
 	")->fetch();
 
-	if(!empty($result) && !$result){
+	if(!empty($result)){
 		$_SESSION['user_id'] = $result['username'];
 	}
 		else{
