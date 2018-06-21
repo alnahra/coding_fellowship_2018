@@ -1,49 +1,44 @@
+<?php
+	include('include/include_all.php');
+	site_header('About Alia');
+?>
 <html>
-<head>
-	<title>About Alia</title>
-	<link href="https://fonts.googleapis.com/css?family=Lalezar|Luckiest+Guy" rel="stylesheet">
 	<link rel='stylesheet' href='blog_style.css'/>
-</head>
-<body>
-	<div class='navigation'>
-		<h3>
-			<a href="index.php">home</a>
-			<a href="about_me.php">about me</a>
-			<a href="history.php">history</a>
-			<a href="blog.php">blog</a>
-		</h3>
-	</div>
-	<h1>
-		MY STORY
-	</h1>
-	<h2>
-		Early life
-	</h2>
-	<br> <br> <br>
-	<div class='post'>
-		Born in Washington, DC in June of 1998
-	</div>
-	<br> <br> <br>
-	<h2>
-		College
-	</h2>
-	<br> <br> <br>
-	<div class='post'>
-		Ever since
-	</div>
-	<br> <br>
-	<h2>
-		Contact Me!
-	</h2>
-	<br> <br> <br> <br> <br>
-	<div class='contact_form'>
-		<form action="welcome_get.php" method="get">
-			Name: <input type="text" name="name"><br>
-			E-mail: <input type="text" name="email"><br><br>
-			Question: <textarea name="question" rows="5" cols="40"></textarea><br>
-			<input type="submit">
-			<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
-		</form>
-	</div>
-</body>
+	<link rel='stylesheet' href='boilerplate_style.css' />
+	<body>
+		<?php
+			page_title('MY STORY')
+		?>
+		<h2>
+			Academic Interests
+		</h2>
+		<br> <br> <br>
+		<div class='post2'>
+			Majoring in Sociology and Women, Gender & Sexuality Studies at Washington University in St. Louis, Alia spends much of her time investigating structural inequalities across identities.
+			The goal of this work is to better understand how systems ingrained in American society can be altered to better support individuals of varying circumstances and across each person's individual identities.
+		</div>
+		<br> <br> <br><br><br>
+		<h2>
+			Career Prospects
+		</h2>
+		<br> <br> <br>
+		<div class='post2'>
+			Alia hopes to graduate in May of 2020, at which point she plans to return to Amsterdam (where she studied for a semester) to work as a legal clerk.
+			After spending a year abroad, she hopes to attend the JD program at Columbia University, with a concentration in the Center for Intersectionality and Social Policy Studies.
+		</div>
+		<br> <br> <br><br><br>
+		<h2>
+			Contact Me
+		</h2>
+		<br> <br> <br> <br>
+		<div class='contact_form'>
+			<form action="welcome_get.php" method="get">
+				Name: <input type="text" name="name"><br>
+				E-mail: <input type="text" name="email"><br><br>
+				Question: <textarea name="question" rows="5" cols="40"></textarea><br>
+				<input type="submit">
+				<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
+			</form>
+		</div>
+	</body>
 </html>

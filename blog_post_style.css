@@ -1,0 +1,54 @@
+html{
+	background-color: #F7FBFC;
+	padding: 10px;
+	}
+h2{
+	font-family: 'Lalezar', Gadget, cursive;
+	text-align: center;
+	font-size: 60;
+	color: #498274;
+	float: center;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 0;
+	border: 2;
+}
+body{
+	font-family: futura;
+	font-size: 15;
+	float: center;
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 0;
+	border: 2;
+}
+.post{
+	background-color: #E7EEEE;
+	padding: 3px;
+	margin-top:10px;
+	margin: 10px;
+	font-family: futura, Charcoal, sans-serif;
+	font-size: 17;
+	width: 97%;
+	display: inline;
+	float: left;
+	clear: both;
+}
+.comment_box{
+	display: inline-block;
+	background-color: rgba(110, 124, 138, .2);
+	padding: 6px;
+	margin: 6px;
+}
+.comment{
+	background-color: #E7EEEE;
+	padding: 3px;
+	margin-top:10px;
+	font-family: futura, Charcoal, sans-serif;
+	font-size: 15;
+	width: 30%;
+	display: inline;
+	float: middle;
+	text-align: center;
+}
