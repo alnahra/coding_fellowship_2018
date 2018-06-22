@@ -10,7 +10,7 @@
 			page_title('HOW DID WE GET HERE?')
 		?>
 		<h2>
-			St. Louis' history of segregation
+			Current Situation
 		</h2>
 		<br> <br> <br>
 		<div class='post2'>
@@ -19,31 +19,31 @@
 					width='600px';
 					height='300px'>
 			</div>
-			The Federal Housing Administration (FHA) was created in 1934 to regulate housing in the New Deal era.
-			One of its primary functions was to insure private mortgages, which allowed Americans to pay for a house with a reduced down payment.
-			However, the government decided on which mortgages to back by judging perceived neighborhood stability.
-			On paper, the idea was to judge the likelihood of a homeowner to default on their loan by comparing other housing circumstances in the neighborhood.
-			The FHA created a system of maps that rated neighborhoods according to their perceived stability, literally drawing different colored lines around different neighborhoods.
-			Green areas were labeled “A,” red areas “D,” etc. The classifications were almost entirely founded on race: the more non-whites in an area, the closer to the “D” rating it got.
-			Black neighborhoods were consequently ineligible for FHA-backed loans, a standard that soon spread across both the public and private mortgage industry.
+			Across the St. Louis City and County region, 66 police departments provide service to 1.31 million
+			people over 589 square miles. The demographics of each department do not necessarily represent the demographics of the areas that they
+			serve, and each vary by size and resources seemingly distinct from the size or population density of the municipality.
+			In total, the St. Louis metropolitan region spends almost $500 million on policing each year.
 		<br><br>
-			Adding to the effects of redlining, restrictive zoning enabled white communities to avoid the development of public housing, forcing many black neighborhoods to be tied to the inner city.
-			This centralization of African Americans was permitted by federal policies deferring to local governments as to how to spend public housing funds.
-			Suburban area authorities refused to participate in government housing programs, strictly enforcing zoning laws that prohibited the division of single-family houses into apartments.
-			Whites that could flee these areas did, leading to complete neighborhood segregation that was entirely legal and encouraged by governmental procedure.
+			The number of municipalities in a relatively condensed area may seem striking. It should. Champ, Missouri, is a municipality of 11 people.
+			And the number of incorporated municipalities does not even cover the unincorporated areas of the region, of which there are several pockets
+			that simply exist without formal governmental structures. Many of these municipalities have their own police forces, which cover areas ranging from 0.11 square
+			miles to the 265 miles covered by the St. Louis County police force. If you drive from the the Galleria mall to Lambert airport, you drive through fifteen
+			different police jurisdictions. The trip won't even take that many minutes.
 		<br><br>
-			Residential location determines schooling, public services, libraries, recreation services, and more.
-			Because funding for all of these services pulls from local taxes, maintaining socioeconomic and racial homogeneity in areas with these amenities outstanding was imperative to residents.
-			This limited public services to the wealthy, white suburbs and functionally removed them from inner-city areas that actually needed the money.
+			The goal of this project is to provide accessible information about these departmens—who are they, where are they, and how are they run.
+			The most immediate goal is to examine how policing services are currently being provided in the St. Louis area, while making that information
+			publicly presented in a readable, interesting way. Much of this work builds upon Better Together St. Louis' Police Executive Research Forum,
+			researched from, 2014-2015 and available online at <a href='http://www.bettertogetherstl.com/police-study'>http://www.bettertogetherstl.com/police-study</a>.
 		</div>
-		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 		<h2>
-			Contemporary effects
+			Historical Context
 		</h2>
 		<br><br><br>
 			<div class='post2'>
-				This voluntary community segregation is the reason why St. Louis has 90 different municipalities in the metropolitan area.
-				This practice of secitoning off communities became so commonplace that it is generally accepted as fact that these municipalities should be distinct from each other.
+				St. Louis' history of voluntary community segregation is the reason why 90 different municipalities in the metropolitan area in the first place.
+				The practice of sectioning off communities to avoid African Americans from joining neighborhoods became so commonplace that it is simp;y accepted
+				as fact that these municipalities should be distinct from each other. There is no reason for the area's fragmentation aside from this history of racism.
 				But having such small areas be their own municipality means that the tax bases for each area are relatively limited, and many of the public services remaining today do not have enough moeny to function.
 				They rely on tickets and other incedental sources of revenue to provide police forces, and firefighters, and lots of other services. Even though there might not be a need for six different police departments in a 3 mile radius.
 			<br><br>

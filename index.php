@@ -2,13 +2,13 @@
 	include('include/include_all.php');
 ?>
 
-<script type='text/javascript'>
+<!-- <script type='text/javascript'>
 $(document).ready(
 	function(){
-		$('body').fadeIn(5000);
+		$('body').fadeIn(500);
 	}
 );
-</script>
+</script> -->
 
 <html>
 	<head>
