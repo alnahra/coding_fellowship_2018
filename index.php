@@ -1,5 +1,6 @@
 <?php
 	include('include/include_all.php');
+	include('jquery/jquery.js');
 ?>
 
 <!-- <script type='text/javascript'>
