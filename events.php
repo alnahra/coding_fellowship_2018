@@ -11,7 +11,7 @@
 <body>
 	<br><br><br>
 	<div class='calendar'>
-		Activism in St. Louis
+		ACTIVISM
 	</div>
 	<br><br><br>
 		<?php

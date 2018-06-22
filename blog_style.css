@@ -8,7 +8,7 @@ html{
 	text-align: left;
 	font-family: futura LT extrabold, Charcoal, sans-serif;
 	font-size: 46px;
-	margin-left: 29%;
+	margin-left: 40%;
 	margin-bottom: auto;
 	width: 95%;
 }
@@ -18,7 +18,7 @@ h2{
 	float: left;
 	clear: both;
 	overflow: auto;
-	font-family: Lalezar, Gadget, cursive;
+	font-family: Lalezar, Geneva, sans-serif;
 	text-align: left;
 	font-size: 26;
 }
@@ -85,7 +85,7 @@ h3{
 	color: #498274;
 	clear: all;
 	overflow: auto;
-	font-family: Lalezar, Gadget, cursive;
+	font-family: Lalezar, Geneva, sans-serif;
 	padding: 10px;
 	background-color: rgba(110, 124, 138, .2);
 	font-size: 26;
