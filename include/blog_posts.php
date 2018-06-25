@@ -1,4 +1,14 @@
 <?php
+
+//to get arrest data
+function get_all_crime(){
+	$result = dbQuery("
+		SELECT *
+		FROM city_crime
+		")->fetchAll();
+	return $result;
+}
+
 //to log someone in
 function attempt_login($username, $password){
 	$result = dbQuery("

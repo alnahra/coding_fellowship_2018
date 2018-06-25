@@ -1,0 +1,14 @@
+html{
+	background-color: #F7FBFC;
+	padding: 10px;
+}
+.data{
+	position: absolute;
+	color: #498274;
+	float: left;
+	clear: all;
+	overflow: auto;
+	font-family: Verdana;
+	text-align: left;
+	font-size: 20;
+}

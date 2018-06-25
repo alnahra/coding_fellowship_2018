@@ -27,6 +27,7 @@ $(document).ready(
 			<a href="events.php">events</a>
 			<a href="history.php">history</a>
 			<a href="blog.php" target="blank">blog</a>
+			<a href="data.php">data</a>
 		</div>
 	</body>
 </html>

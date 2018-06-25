@@ -6,13 +6,14 @@
 	<link rel='stylesheet' href='blog_style.css'/>
 	<link rel='stylesheet' href='boilerplate_style.css' />
 	<body>
-		<?php
+		<!-- <?php
 			page_title('HOW DID WE GET HERE?')
-		?>
+		?> -->
 		<h2>
+			<br>
 			Current Situation
 		</h2>
-		<br> <br> <br>
+		<br> <br> <br><br><br>
 		<div class='post2'>
 			<div class='arch'>
 				<img src='/images/courthouse.jpg'
@@ -33,9 +34,9 @@
 			The goal of this project is to provide accessible information about these departmens—who are they, where are they, and how are they run.
 			The most immediate goal is to examine how policing services are currently being provided in the St. Louis area, while making that information
 			publicly presented in a readable, interesting way. Much of this work builds upon Better Together St. Louis' Police Executive Research Forum,
-			researched from, 2014-2015 and available online at <a href='http://www.bettertogetherstl.com/police-study'>http://www.bettertogetherstl.com/police-study</a>.
+			researched from, 2014-2015 and available online at <a href='http://www.bettertogetherstl.com/police-study' target="blank">http://www.bettertogetherstl.com/police-study</a>.
 		</div>
-		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 		<h2>
 			Historical Context
 		</h2>
