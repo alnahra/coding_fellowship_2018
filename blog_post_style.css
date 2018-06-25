@@ -3,7 +3,7 @@ html{
 	padding: 10px;
 	}
 h2{
-	font-family: 'Lalezar', Geneva, sans-serif;
+	font-family: Verdana, sans-serif;
 	text-align: center;
 	font-size: 60;
 	color: #498274;
@@ -14,7 +14,7 @@ h2{
 	border: 2;
 }
 body{
-	font-family: futura;
+	font-family: Verdana;
 	font-size: 15;
 	float: center;
 	text-align: center;
@@ -28,7 +28,7 @@ body{
 	padding: 3px;
 	margin-top:10px;
 	margin: 10px;
-	font-family: futura, Charcoal, sans-serif;
+	font-family: Verdana, sans-serif;
 	font-size: 17;
 	width: 97%;
 	display: inline;
@@ -45,7 +45,7 @@ body{
 	background-color: #E7EEEE;
 	padding: 3px;
 	margin-top:10px;
-	font-family: futura, Charcoal, sans-serif;
+	font-family: Verdana, sans-serif;
 	font-size: 15;
 	width: 30%;
 	display: inline;

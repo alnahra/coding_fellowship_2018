@@ -6,7 +6,7 @@ html{
 	color:#224337;
 	display: inline-block;
 	text-align: left;
-	font-family: futura LT extrabold, Charcoal, sans-serif;
+	font-family: Verdana, Charcoal, sans-serif;
 	font-size: 46px;
 	margin-left: 40%;
 	margin-bottom: auto;
@@ -18,7 +18,7 @@ h2{
 	float: left;
 	clear: both;
 	overflow: auto;
-	font-family: Lalezar, Geneva, sans-serif;
+	font-family: Verdana, Geneva, sans-serif;
 	text-align: left;
 	font-size: 26;
 }
@@ -28,7 +28,7 @@ h3{
 	float: left;
 	clear: all;
 	overflow: auto;
-	font-family: Lalezar;
+	font-family: Verdana;
 	text-align: left;
 	font-size: 20;
 }
@@ -37,7 +37,7 @@ h3{
 	padding: 3px;
 	margin-top:10px;
 	margin: 10px;
-	font-family: futura, Charcoal, sans-serif;
+	font-family: Verdana,sans-serif;
 	font-size: 17;
 	width: 60%;
 	clear: all;
@@ -48,7 +48,7 @@ h3{
 	padding: 10px;
 	margin-top:10px;
 	margin: 10px;
-	font-family: futura, Charcoal, sans-serif;
+	font-family: Verdana, sans-serif;
 	font-size: 17;
 	width: 97%;
 	clear: all;
@@ -76,7 +76,7 @@ h3{
 	display: block;
 	position: static;
 	text-align: center;
-	font-family: futura,  Charcoal, sans-serif;
+	font-family: Verdana,  Charcoal, sans-serif;
 	color: #498274;
 }
 .thanks {
@@ -85,7 +85,7 @@ h3{
 	color: #498274;
 	clear: all;
 	overflow: auto;
-	font-family: Lalezar, Geneva, sans-serif;
+	font-family: Verdana, sans-serif;
 	padding: 10px;
 	background-color: rgba(110, 124, 138, .2);
 	font-size: 26;

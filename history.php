@@ -36,7 +36,7 @@
 			publicly presented in a readable, interesting way. Much of this work builds upon Better Together St. Louis' Police Executive Research Forum,
 			researched from, 2014-2015 and available online at <a href='http://www.bettertogetherstl.com/police-study' target="blank">http://www.bettertogetherstl.com/police-study</a>.
 		</div>
-		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 		<h2>
 			Historical Context
 		</h2>
