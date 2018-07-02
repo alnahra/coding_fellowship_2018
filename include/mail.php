@@ -1,10 +1,11 @@
 <?php
 //stuff from comments
 function send_contact(){
-	$name = $_REQUEST['name'];
-	$phone = $_REQUEST['phone'];
-	$email = $_REQUEST['email'];
-	$message = $_REQUEST['message'];
+	$msg = 'Name: '.$_REQUEST['name'].' \n';
+	$msg .= 'Phone: '.$_REQUEST['phone'].' \n';
+	$msg .= 'Email: '.$_REQUEST['email'].' \n';
+	$msg .= 'Message: '.$_REQUEST['message'].' \n';
+
 	$result = dbQuery("
 	INSERT INTO contact(name, phone, email, message)
 	VALUES (:name, :phone, :email, :message)",
@@ -23,8 +24,9 @@ function send_email(){
 	$email = $_REQUEST['email'];
 	$message = $_REQUEST['message'];
 
-	$to_email = "alia.nahra@lessannoyingcrm.com";
+	$recipient = "alia.nahra@lessannoyingcrm.com";
 	$subject = "*Comment from MRP Project*";
+	$mailheaders = 'From: PRP <alia.nahra@lessannoyingcrm.com> \n';
 
 	//additional php validation
 	if($_REQUEST['name'] == ''){
@@ -44,13 +46,7 @@ function send_email(){
 		die($output);
 	}
 
-	$headers = array(
-		'From' => $name,
-		'Phone' => $phone,
-		'Reply-To' => $email,
-		);
-
-	$send_mail = mail($to_email, $subject, $message, $headers);
+	$send_mail = mail($recipient, $subject, $msg, $mailheaders);
 
 		if(!$send_mail){
 			//If mail couldn't be sent output error. Check your PHP email configuration (if it ever happens)
