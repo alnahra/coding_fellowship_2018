@@ -8,7 +8,7 @@ function insert_inventory_item($name, $description, $category){
 		INSERT INTO inventory(name, description, category)
 		VALUES('$name', '$description', '$category')
 		")->fetch();
-	}
+}
 
 /* this function calls all of the inventory items that we have entered */
 function get_all_inventory_items(){
@@ -17,7 +17,7 @@ function get_all_inventory_items(){
 		FROM inventory
 		")->fetchAll();
 		return $result;
-	}
+}
 
 $all_inventory_items = get_all_inventory_items();
 

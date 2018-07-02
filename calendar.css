@@ -2,7 +2,7 @@ div#calendar{
   margin:0px auto;
   padding:0px;
   width: 602px;
-  font-family:futura;
+  font-family:Verdana;
 }
 div#calendar div.box{
     position:relative;
@@ -10,7 +10,7 @@ div#calendar div.box{
     left:0px;
     width:100%;
     height:40px;
-    background-color:   #254E65 ;
+    background-color:#7AC0B3;
 }
 div#calendar div.header{
     line-height:40px;
@@ -29,10 +29,10 @@ div#calendar div.header a.prev,div#calendar div.header a.next{
     display:block;
     cursor:pointer;
     text-decoration:none;
-    color:#A5B8C7;
+    color:#224337;
 }
 div#calendar div.header span.title{
-    color:#D3D5DD;
+    color:#224337;
     font-size:18px;
 }
 div#calendar div.header a.prev{
@@ -42,7 +42,7 @@ div#calendar div.header a.next{
     right:0px;
 }
 div#calendar div.box-content{
-    border:1px solid #A5B8C7;
+    border:1px solid #7AC0B3;
     border-top:none;
 }
 div#calendar ul.label{
@@ -65,7 +65,7 @@ div#calendar ul.label li{
     text-align:center;
     color:#FFF;
     font-size: 15px;
-    background-color: #52869D;
+    background-color: #498274;
 }
 div#calendar ul.dates{
     float:left;
@@ -86,8 +86,8 @@ div#calendar ul.dates li{
     width:80px;
     height:80px;
     font-size:25px;
-    background-color: #A5B8C7;
-    color:#254E65;
+    background-color: rgba(122, 192, 179, .25);
+    color:#498274;
     text-align:center;
 }
 :focus{
