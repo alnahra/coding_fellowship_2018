@@ -4,7 +4,7 @@
 function get_all_crime(){
 	$result = dbQuery("
 		SELECT *
-		FROM city_crime
+		FROM county_crime
 		")->fetchAll();
 	return $result;
 }

@@ -2,7 +2,7 @@
 
 include('include/include_all.php');
 site_header('ST. Louis PRP Data');
-page_title ('POLICE DATA');
+page_title ('POLICE RAW DATA');
 
 ?>
 
@@ -15,7 +15,12 @@ page_title ('POLICE DATA');
 		foreach ($crime_list as $crime) {
 		echo "
 		<p>
-		<li>$crime[description] — $crime[date] <br></li>
+		<li>$crime[offense] — $crime[occurred] <br>
+			at $crime[address] <br>
+			within $crime[precinct] <br>
+			reported by $crime[reporting_jurisdiction] for $crime[for_jurisdiction]
+			<br> <br>
+		</li>
 		</p>";
 		}
 	?>
