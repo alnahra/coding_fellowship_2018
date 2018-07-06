@@ -1,38 +1,49 @@
+<?php
+
+include('include/include_all.php');
+site_header('PRP Municipality Map');
+
+?>
+
 <html>
+	<link rel='stylesheet' href='style.css'/>
+	<link rel='stylesheet' href='boilerplate_style.css' />
 <head>
 	<title>Arcgis Map</title>
+	<h1> POLICING MAP </h1>
 	<style>
 		.embed-container {
 			position: relative;
-			padding-bottom: 80%;
-			height: 0;
-			max-width: 95%;}
+			padding-bottom: 50%;
+			height: 10;
+			max-width: 90%;}
 		.embed-container iframe,
 		.embed-container object,
-		.embed-container iframe {
+		.embed-container iframe{
 			position: absolute;
-			top: 0;
-			left: 0;
+			top: 8;
+			left: 10;
+			right: 10;
 			width: 100%;
 			height: 100%;}
 		small{
 			position: absolute;
 			z-index: 40;
-			bottom: 0;
-			margin-bottom: -15px;}
+			bottom: 10;
+			margin-bottom: 10px;}
 	</style>
 </head>
 <body>
 	<div class="embed-container">
-			<iframe width="80%"
-				height="100%"
-				frameborder="1"
-				scrolling="no"
-				marginheight="0"
-				marginwidth="0"
-				title="Municipalities Map"
-				src="//www.arcgis.com/apps/Embed/index.html?webmap=1d3fef819078414f88ef11a4564c7a0a&extent=-91.0745,38.2945,-89.5515,38.98&zoom=true&previewImage=false&scale=true&search=true&searchextent=true&legend=true&disable_scroll=true&theme=light">
-			</iframe>
+		<iframe width="500"
+			height="400"
+			frameborder="10"
+			scrolling="no"
+			marginheight="10"
+			marginwidth="10"
+			title="MUNIS w/ INFO"
+			src="//www.arcgis.com/apps/Embed/index.html?webmap=58b3e128493147a1855ed43cbd06ebca&extent=-91.1074,38.3398,-89.7616,38.9907&home=true&zoom=true&previewImage=false&scale=true&search=true&searchextent=true&legend=true&disable_scroll=true&theme=light">
+		</iframe>
 	</div>
 </body>
 </html>

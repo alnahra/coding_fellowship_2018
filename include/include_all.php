@@ -1,7 +1,6 @@
 <?php
 	include('config/config.php');
 	include('config/init.php');
-
 	session_start();
 
 	include('include/boilerplate.php');

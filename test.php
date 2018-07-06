@@ -1,52 +1,92 @@
-<?php
-include('include/include_all.php');
+<html>
+<div id="map"></div>
+<!-- Replace the value of the key parameter with your own API key. -->
+<script async defer
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCLWcuhkxzhwRwV21oAoA-hBEq-BzDIVPE&callback=initMap">
+</script>
 
-// Start XML file, create parent node
-$doc = new DOMDocument("1.0");
-$node = $doc->createElement("markers");
-$parnode = $doc->appendChild($node);
+<style>
+	#map {height: 100%;}
+html, body {
+  height: 95%;
+  margin: 10px;
+  padding: 0;
+}
+</style>
+</html>
+<script>
+var customLabel = {
+  restaurant: {
+	label: 'R'
+  },
+  bar: {
+	label: 'B'
+  }
+};
 
-// Opens a connection to a mySQL server
-$connection=mysql_connect('localhost', $username, $password);
-if (!$connection) {
-  die('Not connected : ' . mysql_error());
+  function initMap() {
+        var map = new google.maps.Map(document.getElementById('map'), {
+          center: new google.maps.LatLng(-33.863276, 151.207977),
+          zoom: 12
+        });
+        var infoWindow = new google.maps.InfoWindow;
+	downloadUrl('county_crime.xml', function(data) {
+	  var xml = data.responseXML;
+	  var markers = xml.documentElement.getElementsByTagName('id');
+	  Array.prototype.forEach.call(markers, function(markerElem) {
+		var id = markerElem.getAttribute('id');
+		var offense = markerElem.getAttribute('offense');
+		var type = markerElem.getAttribute('type');
+		var occurred = markerElem.getAttribute('occurred');
+		var address = markerElem.getAttribute('address');
+		var precinct = markerElem.getAttribute('precinct');
+		var reporting_jurisdiction = markerElem.getAttribute('reporting_jurisdiction');
+		var for_jurisdiction = markerElem.getAttribute('for_jurisdiction');
+		var point = new google.maps.LatLng(
+			parseFloat(markerElem.getAttribute('latitude')),
+			parseFloat(markerElem.getAttribute('longitude')));
+
+		var infowincontent = document.createElement('div');
+		var strong = document.createElement('strong');
+		strong.textContent = name
+		infowincontent.appendChild(strong);
+		infowincontent.appendChild(document.createElement('br'));
+
+		var text = document.createElement('text');
+		text.textContent = address
+		infowincontent.appendChild(text);
+		var icon = customLabel[type] || {};
+		var marker = new google.maps.Marker({
+		  map: map,
+		  position: point,
+		  label: icon.label
+		});
+		marker.addListener('click', function() {
+		  infoWindow.setContent(infowincontent);
+		  infoWindow.open(map, marker);
+		});
+	  });
+	});
+  }
+
+
+
+function downloadUrl(url, callback) {
+  var request = window.ActiveXObject ?
+	  new ActiveXObject('Microsoft.XMLHTTP') :
+	  new XMLHttpRequest;
+
+  request.onreadystatechange = function() {
+	if (request.readyState == 4) {
+	  request.onreadystatechange = doNothing;
+	  callback(request, request.status);
+	}
+  };
+
+  request.open('GET', url, true);
+  request.send(null);
 }
 
-// Set the active mySQL database
-$db_selected = mysql_select_db($database, $connection);
-if (!$db_selected) {
-  die ('Can\'t use db : ' . mysql_error());
-}
+function doNothing() {}
 
-// Select all the rows in the markers table
-$query = "SELECT * FROM markers WHERE 1";
-$result = mysql_query($query);
-if (!$result) {
-  die('Invalid query: ' . mysql_error());
-}
-
-header("Content-type: text/xml");
-
-// Iterate through the rows, adding XML nodes for each
-while ($row = @mysql_fetch_assoc($result)){
-  // ADD TO XML DOCUMENT NODE
-  $node = $doc->createElement("marker");
-  $newnode = $parnode->appendChild($node);
-
-  $newnode->setAttribute("offense", $row['offense']);
-  $newnode->setAttribute("reported", $row['reported']);
-  $newnode->setAttribute("occurred", $row['occurred']);
-  $newnode->setAttribute("zone", $row['zone']);
-  $newnode->setAttribute("address", $row['address']);
-  $newnode->setAttribute("precinct", $row['precinct']);
-  $newnode->setAttribute("premise", $row['premise']);
-  $newnode->setAttribute("reporting_jurisdiction", $row['reporting_jurisdiction']);
-  $newnode->setAttribute("for_jurisdiciton", $row['for_jurisdiction']);
-  $newnode->setAttribute("latitude", $row['latitude']);
-  $newnode->setAttribute("longitude", $row['longitude']);
-  $newnode->setAttribute("type", $row['type']);
-}
-
-echo $doc->saveXML();
-
-?>
+</script>
