@@ -42,34 +42,34 @@ function insert_blog_item($title, $author, $body, $date){
 
 //calls a single blog post
 //the (blog_post_id) specific doesn't matter, as long as it matches the $blog_post_id in WHERE
-function get_blog_post($blog_post_id){
+function get_municipality($id){
 	$result = dbQuery("
 	SELECT *
-	FROM blog_post
-	WHERE blog_post_id = :blog_post_id
+	FROM municipalities
+	WHERE id = :id
 	", array(
-		'blog_post_id'=>$blog_post_id
+		'id'=>$id
 	))-> fetch();
 
 	return $result;
 }
-//this function defines the variable $blog_post_id within it and calls for all the info from comments table
-function post_comments($blog_post_id){
+//this function defines the variable $id within it and calls for all the info from comments table
+function post_comments($id){
 	$result = dbQuery("
 		SELECT *
 		FROM comments
-		WHERE blog_post_id = :blog_post_id
+		WHERE id = :id
 		", array(
-			'blog_post_id' => $blog_post_id
+			'id' => $id
 		))->fetchAll();
 	return $result;
 }
 
 /*this is to call all of the blog posts on the index blog page */
-function get_all_blog_posts(){
+function get_all_municipalities(){
 	$result = dbQuery("
 		SELECT *
-		FROM blog_post
+		FROM municipalities
 		")->fetchAll();
 	return $result;
 }

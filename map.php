@@ -8,14 +8,14 @@
 			send_email();
 		}
 
-	site_header('ST. Louis PRP Blog');
-	page_title ('FELLOWSHIP BLOG');
+	site_header('ST. Louis PRP Map');
+	page_title ('MUNICIPALITIES MAP');
 ?>
 <html>
 	<link rel='stylesheet' href='boilerplate_style.css'/>
 	<link rel='stylesheet' href='blog_style.css'/>
 <body>
-	<h2>FIRST DAYS:
+	<h2>ST. LOUIS MUNICIPALITIES
 		</h2>
 		<br> <br> <br> <br>
 		<div class='arch'>
@@ -29,11 +29,11 @@
 					<p>
 						<ul>
 							<?php
-								$blog_list=get_all_blog_posts();
-								foreach ($blog_list as $post) {
+								$municipality_list=get_all_municipalities();
+								foreach ($municipality_list as $municipality) {
 								echo "
 								<p>
-								<li><a href='view_blog_posts.php?blog_post_id=$post[blog_post_id]'> $post[title]</a></li>
+								<li><a href='view_municipalities.php?id=$municipality[id]'> $municipality[name]</a></li>
 								</p>";
 								}
 							?>
@@ -42,10 +42,7 @@
 				</div>
 			</div>
 		</div>
-	<h2>
-		<br><br><br><br><br><br>
-		CONTACT
-	</h2>
+	<br>
 	<div class='contact_form'>
 		<?php echo"
 		<form action='' method='POST'>

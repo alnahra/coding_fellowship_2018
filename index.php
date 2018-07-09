@@ -26,7 +26,7 @@ $(document).ready(
 		<div class='sidenav'>
 			<a href="events.php">events</a>
 			<a href="history.php">history</a>
-			<a href="blog.php" target="blank">blog</a>
+			<a href="map.php" target="blank">map</a>
 			<a href="data.php">data</a>
 		</div>
 	</body>

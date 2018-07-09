@@ -9,4 +9,4 @@
 	include('include/mail.php');
 ?>
 
-<script src="include/jquery.js"></script>
+<script src="jquery/jquery.js"></script>
