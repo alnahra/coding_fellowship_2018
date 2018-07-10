@@ -8,8 +8,8 @@
 			send_email();
 		}
 
-	site_header('ST. Louis PRP Map');
-	page_title ('MUNICIPALITIES MAP');
+	site_header('PRP Municipalities');
+	page_title ('MUNICIPALITIES LIST');
 ?>
 <html>
 	<link rel='stylesheet' href='boilerplate_style.css'/>

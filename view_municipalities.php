@@ -25,6 +25,32 @@ echo "
 	</div>";
 echo "
 	<html>
+		<body>
+		<div class='comment_box'>
+		<p>
+			<input type='text' name='name' id='author_name' value='".@$_REQUEST['author_name']."' placeholder='NAME'/><br/>
+			<input type='date' name='date' id='date_posted' value='".@$_REQUEST['date']."' placeholder='MM-DD-YYYY'/><br/><br>
+			<textarea name='comment' id='comment' value='".@$_REQUEST['comment']."' placeholder='COMMENT'></textarea><br/><br>
+			<input type='button' onclick='save_comment($_REQUEST[id])' value='Submit Comment'/>
+		</p>
+		</div>
+			<div id='confirmContentFromServer'><br>";
+				$comments=post_comments($_REQUEST['id']);
+					foreach ($comments as $comment) {
+						echo "
+						<div class='row'>
+							<div class='leftcolumn'>
+								<div class='comment'>
+									<i> ".$comment['author_name']." on ".$comment['date_posted']." said: </i><br>
+									".$comment['comment']." <br><br>
+								</div>
+							</div>
+						</div>
+						";
+					};
+					echo "
+			</div>
+		</body>
 	    <head>
 	        <script type='text/javascript'>
 	            function save_comment(){
@@ -33,25 +59,16 @@ echo "
 					var date_posted = $('#date_posted').val();
 					var comment = $('#comment').val();
 
-	                $.post('save_comment_endpoint.php', {'id':id, 'author_name':author_name},
-					function(contentEchoedFromServer){
-	                   	$('#confirmContentFromServer').html(contentEchoedFromServer);
+	                $.post('save_comment_endpoint.php', {id, author_name, date_posted, comment},
+						function(contentEchoedFromServer){
+	                   		$('#confirmContentFromServer').html(contentEchoedFromServer);
 	                })
 	            }
 	        </script>
 	    </head>
-	    <body>
-		<p>
-			<input type='text' name='name' id='author_name' placeholder='NAME'></textarea><br/>
-			<input type='test' name='date' id='date_posted' placeholder='MM-DD-YYYY'></textarea><br/><br>
-			<textarea name='comment' id='comment' placeholder='COMMENT'></textarea><br/><br>
-			<input type='button' onclick='save_comment()' value='Submit Comment' />
-			<div id='confirmContentFromServer'></div>
-		</p>
-	    </body>
 	</html>";
 
-post_comments($_REQUEST['id']);
+
 
 //this creates the form that users input comments into
 // echo"

@@ -26,8 +26,8 @@ $(document).ready(
 		<div class='sidenav'>
 			<a href="events.php">events</a>
 			<a href="history.php">history</a>
-			<a href="map.php" target="blank">map</a>
-			<a href="data.php">data</a>
+			<a href="municipalities.php">data</a>
+			<a href="google_map.php">map</a>
 		</div>
 	</body>
 </html>

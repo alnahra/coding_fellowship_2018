@@ -40,6 +40,7 @@ body{
 	background-color: rgba(110, 124, 138, .2);
 	padding: 6px;
 	margin: 6px;
+	float: center;
 }
 .comment{
 	background-color: #E7EEEE;
@@ -49,6 +50,6 @@ body{
 	font-size: 15;
 	width: 30%;
 	display: inline;
-	float: middle;
+	float: center;
 	text-align: center;
 }

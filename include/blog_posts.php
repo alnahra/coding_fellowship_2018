@@ -53,17 +53,6 @@ function get_municipality($id){
 
 	return $result;
 }
-//this function defines the variable $id within it and calls for all the info from comments table
-function post_comments($id){
-	$result = dbQuery("
-		SELECT *
-		FROM comments
-		WHERE id = :id
-		", array(
-			'id' => $id
-		))->fetchAll();
-	return $result;
-}
 
 /*this is to call all of the blog posts on the index blog page */
 function get_all_municipalities(){

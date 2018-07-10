@@ -1,9 +1,9 @@
 <?php
 //this ties the comments stuff to a specific post
 function submit_comment($id){
-	$author_name = 'author_name';
-	$date_posted = 'date_posted';
-	$comment = 'comment';
+	$author_name = $_REQUEST['author_name'];
+	$date_posted = $_REQUEST['date_posted'];
+	$comment = $_REQUEST['comment'];
 	$result = dbQuery("
 	INSERT INTO comments(id, author_name, date_posted, comment)
 	VALUES (:id, :author_name, :date_posted, :comment)",
@@ -16,16 +16,14 @@ function submit_comment($id){
 	));
 }
 
-	$comments=post_comments($_REQUEST['id']);
-		foreach ($comments as $comment) {
-			echo "
-			<div class='row'>
-				<div class='leftcolumn'>
-					<div class='comment'>
-						<i> ".$comment['author_name']." on ".$comment['date_posted']." said: </i><br>
-						".$comment['comment']." <br><br>
-					</div>
-				</div>
-			</div>
-			";
-		}
+//this defines the variable $id and calls for all the info from comments table
+function post_comments($id){
+	$result = dbQuery("
+		SELECT *
+		FROM comments
+		WHERE id = :id
+		", array(
+			'id' => $id
+		))->fetchAll();
+	return $result;
+}
