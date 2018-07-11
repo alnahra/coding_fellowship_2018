@@ -5,10 +5,10 @@ site_header('ST. Louis PRP Data');
 page_title ('POLICE RAW DATA');
 
 ?>
-
-<html>
+<head>
 	<link rel='stylesheet' href='boilerplate_style.css'/>
 	<link rel='stylesheet' href='data_style.css'/>
+<head>
 <div class='data'>
 	<?php
 	$crime_list=get_all_crime();
