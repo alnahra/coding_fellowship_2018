@@ -2,7 +2,6 @@
 $municipality_id = $_REQUEST['id'];
 	include('include/include_all.php');
 	site_header('MUNICIPALITY INFO');
-	page_title ('MUNICIPALITIES MAP');
 echo "
 	<link rel='stylesheet' href='boilerplate_style.css'/>
 	<link rel='stylesheet' href='blog_post_style.css'/> ";
@@ -10,15 +9,44 @@ echo "
 	$municipality=get_municipality($_REQUEST['id']);
 	//var_dump($post);
 echo "
-	<h2>$municipality[name]</h2> <br>
-	<body>POPULATION: $municipality[population]</body>
+<br><br><br><br>
+	<h2>$municipality[name]</h2>
 	<div class='row'>
 		<div class='leftcolumn'>
 			<div class='post'>
+			<h3>POPULATION: $municipality[population]</h3>
+				<b>PERCENTAGE OF POPULATION THAT IDENTIFIES AS WHITE</b>: $municipality[race_w] <br>
+				<b>PERCENTAGE OF POPULATION THAT IDENTIFIES AS BLACK</b>: $municipality[race_b]
+				<h3>AREA: $municipality[area] sqm
+			</h3>
+				_____________________________________________________________________________ <br>
 			<p>
-				2017 REVENUE: $municipality[revenue]   |   2017 EXPENDITURE: $municipality[expenditure]
-				<br><br> POLICE: $municipality[police]</div>
-			</p>
+				<b>2017 REVENUE</b>: $municipality[revenue] | <b>2017 EXPENDITURE</b>: $municipality[expenditure]
+				<br><br> <b>POLICE: $municipality[police] <br>
+				FULL-TIME OFFICERS</b>: $municipality[officers] | <b>OFFICERS PER 1,000 PEOPLE</b>: $municipality[officers_per]
+				<br><i>* indicates precinct total</i>
+				<br><br>
+				<b>TOTAL INDEX OFFENSES</b>: $municipality[total_index]<br>
+				VIOLENT OFFENSES: $municipality[violent_index]   |   PROPERTY OFFENSES: $municipality[property_index]
+				<br><br> <b>INDEX ARRESTS</b>: $municipality[index_arrests] <br>
+				CLEARANCE RATE: $municipality[clearance]<br><br>
+				<b>NON-INDEX OFFENSES</b>: $municipality[non_index]
+			</p> _____________________________________________________________________________ <br>
+			<body>
+			<br>
+				** ARREST INFO **<br>
+				These numbers reflect those reported to the Missouri Highway Patrol's Statistical Analysis
+				Center for the year 2017. Index offenses (also known as Part I offenses) include murder, rape,
+				robbery, aggravated assault, burglary, larceny theft, motor vehicle theft, arson, and human trafficking.
+				The total index value represents the overall number of index offense crimes reported. The violent index value
+				represents the offenses that fall under the violent category, which includes murder, rape, robbery, aggravated
+				assault, and human trafficking. The total property index value represents non-violent Part I crimes,
+				including burglary, larceny theft, motor vehicle theft, and arson. The index arrests value shows
+				the total number of arrests for Part I crimes, and the clearance rate comes from calculating the percentage
+				of index crimes for which an arrest was filed. The total non-index arrests value shows arrest numbers for
+				non-index crimes within each jurisdiction.
+			</body>
+			</div>
 			</div>
 		</div>
 	<br><br><br><br><br><br><br>
