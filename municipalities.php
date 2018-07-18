@@ -18,11 +18,11 @@
 	<h2>ST. LOUIS MUNICIPALITIES
 		</h2>
 		<br> <br> <br> <br>
-		<div class='arch'>
+		<!-- <div class='arch'>
 			<img src='/images/arch.jpg';
 				width=350px;
 				height=500px;>
-			</div>
+			</div> -->
 		<div class='row'>
 			<div class='leftcolumn'>
 				<div class='post'
@@ -46,6 +46,7 @@
 	<div class='contact_form'>
 		<?php echo"
 		<form action='' method='POST'>
+			<b>CONTACT FORM</b><br><br>
 			Name: <input type='text'
 				name='name'
 				id='name'

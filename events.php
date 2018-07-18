@@ -11,7 +11,7 @@
 <body>
 	<br><br><br>
 	<div class='calendar'>
-		ACTIVISM
+		<b>ACTIVISM</b>
 	</div>
 	<br><br><br>
 		<?php

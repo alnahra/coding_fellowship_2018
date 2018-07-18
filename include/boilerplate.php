@@ -11,7 +11,7 @@
 				<body>
 					<a href='index.php'>home</a>
 					<a href='events.php'>events</a>
-					<a href='history.php'>history</a>
+					<a href='history.php'>background</a>
 					<a href='municipalities.php'>data</a>
 					<a href='google_map.php'>map</a>
 				</body>

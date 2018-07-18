@@ -68,7 +68,7 @@ echo "
 						echo "
 						<div class='row'>
 							<div class='leftcolumn'>
-								<div class='comment'>
+								<div class='comment_box'>
 									<i> ".$comment['author_name']." on ".$comment['date_posted']." said: </i><br>
 									".$comment['comment']." <br><br>
 								</div>

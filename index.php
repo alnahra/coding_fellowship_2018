@@ -18,14 +18,10 @@ $(document).ready(
 	</head>
 	<body>
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-		<div class='heading'>
-			<h1>THE CRIMINAL <br>
-				(IN)JUSTICE SYSTEM: <br>
-				ST. LOUIS, MO</h1>
-		</div>
+			<h1>POLICING ST. LOUIS</h1>
 		<div class='sidenav'>
 			<a href="events.php">events</a>
-			<a href="history.php">history</a>
+			<a href="history.php">background</a>
 			<a href="municipalities.php">data</a>
 			<a href="google_map.php">map</a>
 		</div>
