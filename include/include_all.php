@@ -1,7 +1,6 @@
 <?php
 	include('config/config.php');
 	include('config/init.php');
-
 	session_start();
 
 	include('include/boilerplate.php');
@@ -10,4 +9,6 @@
 	include('include/mail.php');
 ?>
 
-<script src="include/jquery.js"></script>
+<html>
+<script src="jquery/jquery.js"></script>
+</html>

@@ -1,20 +1,20 @@
 html{
-	background-color: #F7FBFC;
+	background-color: #d4d8db;
 	padding: 10px;
 }
 .calendar{
-	color:#224337;
+	color:#3765CB;
 	display: inline-block;
 	text-align: left;
 	font-family: Verdana, Charcoal, sans-serif;
-	font-size: 46px;
-	margin-left: 40%;
+	font-size: 50px;
+	margin-left: 39%;
 	margin-bottom: auto;
 	width: 95%;
 }
 h2{
 	position: absolute;
-	color: #498274;
+	color:#3765CB;
 	float: left;
 	clear: both;
 	overflow: auto;
@@ -24,7 +24,7 @@ h2{
 }
 h3{
 	position: absolute;
-	color: #498274;
+	color: #1B1E2A;
 	float: left;
 	clear: all;
 	overflow: auto;
@@ -33,7 +33,7 @@ h3{
 	font-size: 20;
 }
 .post {
-	background-color: #E7EEEE;
+	background-color: rgba(55, 101, 203, 0.25);
 	padding: 3px;
 	margin-top:10px;
 	margin: 10px;
@@ -44,7 +44,7 @@ h3{
 	float: left;
 }
 .post2 {
-	background-color: #E7EEEE;
+	background-color: rgba(55, 101, 203, 0.25);
 	padding: 10px;
 	margin-top:10px;
 	margin: 10px;
@@ -63,30 +63,30 @@ h3{
 	margin: 10px;
 }
 .contact_form {
-	height: 210px;
-	width: 310px;
+	height: 250px;
+	width: 325px;
 	z-index: 1;
 	top: 0;
-	left: 0;
-	float: left;
+	float: right;
 	margin-top: 65px;
-	background-color: rgba(122, 192, 179, .25);
+	margin-right: 100px;
+	background-color: rgba(90, 102, 134, 0.3);
 	overflow-x: hidden;
 	padding-top: 20px;
 	display: block;
-	position: static;
+	position: relative;
 	text-align: center;
 	font-family: Verdana,  Charcoal, sans-serif;
-	color: #498274;
+	color: #1B1E2A;
 }
 .thanks {
 	position: inherit;
 	text-align: center;
-	color: #498274;
+	color: #AE4D2B;
 	clear: all;
 	overflow: auto;
 	font-family: Verdana, sans-serif;
 	padding: 10px;
-	background-color: rgba(110, 124, 138, .2);
+	background-color: rgba(156, 168, 165, .2);
 	font-size: 26;
 }
