@@ -1,6 +1,31 @@
 <?php
 
-/* this function allows me to add items into the inventory we created for grocery items */
+//to get arrest data
+function get_all_crime(){
+	$result = dbQuery("
+		SELECT *
+		FROM county_crime
+		")->fetchAll();
+	return $result;
+}
+
+//to log someone in
+function attempt_login($username, $password){
+	$result = dbQuery("
+	SELECT *
+	FROM users
+	WHERE username = '$username' AND password = '$password'
+	")->fetch();
+
+	if(!empty($result)){
+		$_SESSION['user_id'] = $result['username'];
+	}
+		else{
+			$_SESSION = array();
+		}
+}
+
+//adding to grocery items inventory
 function insert_blog_item($title, $author, $body, $date){
 	$result = dbQuery("
     INSERT INTO blog_post(title, author, body, date)
@@ -12,32 +37,28 @@ function insert_blog_item($title, $author, $body, $date){
     'date' => $date
 ))->fetchAll();
 }
-/*this is how you actually insert the data*/
+//this  inserts data
 //insert_blog_item('getting data', 'Alia Nahra', ' ', '2018-05-24 10:57:13');
 
-/* this function calls a single blog post
-	the (blog_post_id) specific doesn't matter, as long as it matches the $blog_post_id in WHERE */
-function get_blog_post($blog_post_id){
+//calls a single blog post
+//the (blog_post_id) specific doesn't matter, as long as it matches the $blog_post_id in WHERE
+function get_municipality($id){
 	$result = dbQuery("
 	SELECT *
-	FROM blog_post
-	WHERE blog_post_id = :blog_post_id
+	FROM municipalities
+	WHERE id = :id
 	", array(
-		'blog_post_id'=>$blog_post_id
+		'id'=>$id
 	))-> fetch();
 
 	return $result;
 }
 
-
-/*this is defining $blog_post as calling the function get_blog_post, only use when actually calling
-$blog_post = get_blog_post($_REQUEST['blog_post_id']); */
-
 /*this is to call all of the blog posts on the index blog page */
-function get_all_blog_posts(){
+function get_all_municipalities(){
 	$result = dbQuery("
 		SELECT *
-		FROM blog_post
+		FROM municipalities
 		")->fetchAll();
 	return $result;
 }
