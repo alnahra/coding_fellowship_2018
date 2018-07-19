@@ -1,5 +1,5 @@
 <?php
-	function SiteHeader($title) {
+	function site_header($title) {
 		echo "<html>
 		<head>
 			<title>$title</title>
@@ -10,15 +10,16 @@
 			<div class='navigation'>
 				<body>
 					<a href='index.php'>home</a>
-					<a href='about_me.php'>about me</a>
-					<a href='history.php'>history</a>
-					<a href='blog.php'>blog</a>
+					<a href='events.php'>events</a>
+					<a href='history.php'>background</a>
+					<a href='municipalities.php'>data</a>
+					<a href='google_map.php'>map</a>
 				</body>
 			</div>
 			</body>
 		</html>";
 		}
-			function PageTitle($page) {
+			function page_title($page) {
 				echo "<h1>$page</h1>
 				<br> <br> <br><br><br>";
 			}
