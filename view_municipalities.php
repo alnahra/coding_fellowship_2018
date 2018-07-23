@@ -1,7 +1,7 @@
 <?php
 $municipality_id = $_REQUEST['id'];
 	include('include/include_all.php');
-	site_header('MUNICIPALITY INFO');
+	site_header('_____');
 echo "
 	<link rel='stylesheet' href='boilerplate_style.css'/>
 	<link rel='stylesheet' href='blog_post_style.css'/> ";
@@ -21,10 +21,10 @@ echo "
 			</h3>
 				_____________________________________________________________________________ <br>
 			<p>
+				<i>* indicates precinct total </i><br><br>
 				<b>2017 REVENUE</b>: $municipality[revenue] | <b>2017 EXPENDITURE</b>: $municipality[expenditure]
 				<br><br> <b>POLICE: $municipality[police] <br>
 				FULL-TIME OFFICERS</b>: $municipality[officers] | <b>OFFICERS PER 1,000 PEOPLE</b>: $municipality[officers_per]
-				<br><i>* indicates precinct total</i>
 				<br><br>
 				<b>TOTAL INDEX OFFENSES</b>: $municipality[total_index]<br>
 				VIOLENT OFFENSES: $municipality[violent_index]   |   PROPERTY OFFENSES: $municipality[property_index]
@@ -33,7 +33,15 @@ echo "
 				<b>NON-INDEX OFFENSES</b>: $municipality[non_index]
 			</p> _____________________________________________________________________________ <br>
 			<body>
-			<br>
+			<p>
+				<i>** indicates county total </i><br><br>
+				<b>VEHICLE STOPS</b>: $municipality[vehicle_stops] <br>
+				<b>VEHICLE SEARCHES</b>: $municipality[searches] | <b>ARRESTS FROM VEHICLE STOPS</b>: $municipality[arrests] <br>
+				<b>VEHICLE STOP DISPARITY BY RACE (WHITE / BLACK)</b>: $municipality[disparity]<br><br>
+				<i>disparity = proportion of stops / proportion of population (1 = no disparity, < 1 = under-representation, > 1 = over-representation)
+			</p> _____________________________________________________________________________ <br>
+			<body>
+			<br><br><br>
 				** ARREST INFO **<br>
 				These numbers reflect those reported to the Missouri Highway Patrol's Statistical Analysis
 				Center for the year 2017. Index offenses (also known as Part I offenses) include murder, rape,
@@ -45,6 +53,7 @@ echo "
 				the total number of arrests for Part I crimes, and the clearance rate comes from calculating the percentage
 				of index crimes for which an arrest was filed. The total non-index arrests value shows arrest numbers for
 				non-index crimes within each jurisdiction.
+			<br><br>
 			</body>
 			</div>
 			</div>
@@ -78,22 +87,43 @@ echo "
 					};
 					echo "
 			</div>
-		</body>
-	    <head>
-	        <script type='text/javascript'>
-	            function save_comment(){
-	                var id = $_REQUEST[id];
+			<script type='text/javascript'>
+				function save_comment(){
+					var id = $_REQUEST[id];
 					var author_name = $('#author_name').val();
 					var date_posted = $('#date_posted').val();
 					var comment = $('#comment').val();
 
-	                $.post('save_comment_endpoint.php', {id, author_name, date_posted, comment},
+					$.post('save_comment_endpoint.php', {id, author_name, date_posted, comment},
 						function(contentEchoedFromServer){
-	                   		$('#confirmContentFromServer').html(contentEchoedFromServer);
-	                })
-	            }
-	        </script>
-	    </head>
+							$('#confirmContentFromServer').html(contentEchoedFromServer);
+					})
+				}
+			</script>
+			<div class='comment_box'>
+			<a href='/data/Vehicle-Stops.pdf' target='blank'>
+				<img src='/images/vehicle_stops.png'
+					alt='vehicle_stops'
+					width='95px';
+					height='130px'>
+			<a href='https://data-stlcogis.opendata.arcgis.com/datasets/2017-st.-louis-county-police-department-ucr-part-1-crime-data' target='blank'>
+				<img src='/images/county_ucr.png'
+					alt='county_ucr_data'
+					width='95px';
+					height='130px'>
+					<br>
+			<a href='/data/UCR-Data-2017.pdf' target='blank'>
+				<img src='/images/ucr_data.png'
+					alt='ucr_data'
+					width='95px';
+					height='130px'>
+			<a href='/data/Regional-Spending-Update-Report.pdf' target='blank'>
+				<img src='/images/regional_spending.png'
+					alt='spending_data'
+					width='95px';
+					height='130px'>
+			</div>
+		</body>
 	</html>";
 
 

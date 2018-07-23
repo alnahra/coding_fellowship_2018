@@ -22,7 +22,7 @@ site_header('PRP Municipality Map');
 			margin: 10px;
 			padding: 10px;
 			overflow: visible;
-			background-color: #F7FBFC;
+			background-color: #d4d8db;
 		}
 		.navigation{
 			list-style-type: none;

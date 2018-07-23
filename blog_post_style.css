@@ -43,5 +43,6 @@ body{
 	background-color: rgba(90, 102, 134, 0.3);
 	padding: 6px;
 	margin: 10px;
+	width: 200px;
 	float: right;
 }

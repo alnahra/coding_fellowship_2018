@@ -6,14 +6,14 @@
 	<link rel='stylesheet' href='blog_style.css'/>
 	<link rel='stylesheet' href='boilerplate_style.css' />
 	<body>
-		<!-- <?php
+		 <?php
 			page_title('HOW DID WE GET HERE?')
-		?> -->
-		<h2>
+		?>
+		<!-- <<h2>
 			<br>
 			Current Situation
-		</h2>
-		<br> <br> <br><br><br>
+		</h2> -->
+		<br>
 		<div class='post2'>
 			<div class='arch'>
 				<img src='/images/arch_grounds.jpg'
@@ -40,12 +40,12 @@
 			publicly presented in a readable, interesting way. Much of this work builds upon <a href='http://www.bettertogetherstl.com/police-study' target="blank">Better Together St. Louis'</a> efforts since 2014.
 			Other sources of information are the <a href='https://www.ago.mo.gov/' target="blank">Missouri Attorney General's Office</a>, the
 			<a href='https://www.mshp.dps.missouri.gov/MSHPWeb/Root/index.html' target="blank">Missouri Highway Patrol</a>,
-			information on the <a href='http://www.bettertogetherstl.com/police-study' target="blank">St. Louis Open Data website</a>, and phone calls with departments themselves.
+			information on the <a href='http://www.bettertogetherstl.com/police-study' target="blank">St. Louis Open Data website</a>, the <a href='https://www.census.gov/' target="blank">U.S. Census Bureau</a>, and phone calls with departments themselves.
 		</div>
-		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-		<h2>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<!-- <h2>
 			Historical Context
-		</h2>
+		</h2> -->
 		<br><br><br>
 			<div class='post2'>
 				St. Louis' history of voluntary community segregation is the main reason for the existence of 90 different municipalities in the metropolitan area in the first place.
