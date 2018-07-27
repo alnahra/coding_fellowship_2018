@@ -9,7 +9,9 @@
 		<link href="calendar.css" type="text/css" rel="stylesheet" />
 	</head>
 <body>
-	<br><br><br>
+	<div class='boiler_line'>
+	</div>
+	<br><br><br><br><br><br>
 	<div class='calendar'>
 		<b>ACTIVISM</b>
 	</div>
