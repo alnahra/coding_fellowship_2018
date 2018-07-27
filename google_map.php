@@ -5,16 +5,19 @@ site_header('PRP Municipality Map');
 <html>
 	<head>
 	    <title>Google Map</title>
-		<h1>POLICING MAP</h1><br><br><br><br><br>
+		<div class='boiler_line'>
+		</div>
+		<br><br><br><br><br><br><br><br>
+		<h1>MUNICIPALITIES WITHIN ST. LOUIS COUNTY</h1><br>
 	    <meta name="viewport" content="initial-scale=1.0">
 	    <meta charset="utf-8">
 		<style>
 		h1 {
-			color:#224337;
-			float: left;
+			color:#000;
+			float: center;
 			font-family: Verdana, sans-serif;
 			font-size: 46px;
-			margin-left: 10px;
+			margin-left: 1%;
 			margin-bottom: auto;
 		}
 		html, body, #map {
@@ -22,7 +25,7 @@ site_header('PRP Municipality Map');
 			margin: 10px;
 			padding: 10px;
 			overflow: visible;
-			background-color: #F7FBFC;
+			background-color: #fff;
 		}
 		.navigation{
 			list-style-type: none;
@@ -36,7 +39,7 @@ site_header('PRP Municipality Map');
 			padding-right: 20px;
 			margin-bottom: 3px;
 			margin-top: 5px;
-		    background-color: rgba(110, 124, 138, .2);
+		    background-color: #fff;
 		    display: inline;
 			font-family: Verdana, sans-serif;
 			font-size: 20;
@@ -441,7 +444,7 @@ site_header('PRP Municipality Map');
 	};
 		map.setCenter(latlngbounds.getCenter());
 	map.data.loadGeoJson('https://opendata.arcgis.com/datasets/2273a9e78bae4b94a2a1e6bf67e375e1_6.geojson');
-		map.data.setStyle({strokeWeight: 0.8});
+		map.data.setStyle({strokeWeight: 0.2});
 	}
 </script>
 <div id="map">

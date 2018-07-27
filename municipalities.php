@@ -9,15 +9,18 @@
 		}
 
 	site_header('PRP Municipalities');
-	page_title ('MUNICIPALITIES LIST');
+	// page_title ('MUNICIPALITIES LIST');
 ?>
 <html>
 	<link rel='stylesheet' href='boilerplate_style.css'/>
 	<link rel='stylesheet' href='blog_style.css'/>
 <body>
-	<h2>ST. LOUIS MUNICIPALITIES
-		</h2>
-		<br> <br> <br> <br>
+	<div class='boiler_line'>
+	</div>
+	<br><br><br><br><br><br><br><br><br><br>
+	<h1> ST. LOUIS MUNICIPALITIES
+	</h1>
+		<br> <br> <br> <br> <br>
 		<!-- <div class='arch'>
 			<img src='/images/arch.jpg';
 				width=350px;
