@@ -4,20 +4,19 @@
 ?>
 <html>
 	<link rel='stylesheet' href='blog_style.css'/>
-	<link rel='stylesheet' href='boilerplate_style.css' />
+	<link rel='stylesheet' href='boilerplate_style.css'/>
 	<body>
+		<br><br><br><br><br><br>
+		<div class='boiler_line'>
+		</div>
+		<br><br><br><br>
 		 <?php
 			page_title('HOW DID WE GET HERE?')
 		?>
-		<!-- <<h2>
-			<br>
-			Current Situation
-		</h2> -->
-		<br>
 		<div class='post2'>
 			<div class='arch'>
 				<img src='/images/arch_grounds.jpg'
-					width='440px';
+					width='400px';
 					height='300px'>
 			</div>
 			Across the St. Louis City and County region, 66 police departments provide service to 1.31 million
@@ -42,7 +41,6 @@
 			<a href='https://www.mshp.dps.missouri.gov/MSHPWeb/Root/index.html' target="blank">Missouri Highway Patrol</a>,
 			information on the <a href='http://www.bettertogetherstl.com/police-study' target="blank">St. Louis Open Data website</a>, the <a href='https://www.census.gov/' target="blank">U.S. Census Bureau</a>, and phone calls with departments themselves.
 		</div>
-		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 		<!-- <h2>
 			Historical Context
 		</h2> -->
