@@ -44,6 +44,24 @@ site_header('PRP Municipality Map');
 			font-family: Verdana, sans-serif;
 			font-size: 20;
 		}
+		@media screen and (max-width: 480px) {
+			h1 {
+				color:#000;
+				float: left;
+				font-family: Verdana, sans-serif;
+				font-size: 30px;
+				margin-left: 1%;
+				margin-top: 20%;
+				margin-bottom: 1%;
+			}
+			html, body, #map {
+				height: 100%;
+				margin: 5px;
+				padding: 10px;
+				overflow: visible;
+				background-color: #fff;
+			}
+		}
 		</style>
 	</head>
 <body>

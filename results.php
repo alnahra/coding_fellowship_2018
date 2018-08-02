@@ -24,12 +24,28 @@
 			<br>
 			The second function of this site is to test my hypotheses on policing in the St. Louis area.
 			<br><br>
-			Some key points that I was able to distill from my data collection:
+			Some key points that I was able to distill from my data collection: <br><br>
 
-			<ul> — <b>Not all police departments in the St. Louis area are certified.</b> etc. etc. <br>
-				— <b> Despite multiple Sunshine Law Requests and directuves from the Attorney General's Office,
-					<br>
-			</ul>
+			— <b>Not all police departments in the St. Louis area are accredited.</b> In fact, a minority of departments
+			in St. Louis County are accredited, as Missouri does not require departments to be accredited. The state
+			has requirements that must be met for individual officers to be licensed, but these requirements do not
+			apply to departments themselves. <br><br>
+			— <b> Despite multiple Sunshine Law Requirements and directives from the Attorney General's Office, some				municipalities refuse to share public information.</b> Although Missouri Revised Statute 610 demands that
+			“each public governmental body shall make available for inspection and copying by the public of that
+			body’s public records,” some municipalities and police departments are reluctant to share information with
+			the public.  The Northwoods Police Department, which patrols the municipalities of Northwoods, Kinloch,
+			and Norwood Court, refused to report their vehicle stop data to the Missoury Attorney General's Office
+			for its 2017 comprehensive report. When Better Together conducted their Public Safety policing study,
+			the police departments in Beverly Hills, Country Club Hills, Hillsdale, Kinloch, Lakeshire, St. Ann,
+			Vinita Park, and Wellston all refused to provide the group information in accordance with the Missouri
+			Sunshine Law mandating the sharing of this public information. Other departments made the information incredibly
+			cost-prohibitive, with the same information being free from some departments and costing thousands of dollars from another.
+			<br><br>—<b>The less diverse a municipality, the more disparate its vehicle stops are by race.</b> For example,
+			the municipality of Chesterfield's population is about 86 percent white and 2.5 black. Their vehicle stop
+			disparity, which compares the percentage of vehicle stops by race to that race's percentage of the population,
+			returns 0.94 and 5.81, respectively. This means that white drivers are stopped near proportionately to their
+			composition of the Chesterfield population, but black drivers are nearly six times more likely to be stopped than
+			would be proportionate. This type of spread is not uncommon across municipalities.
 		</p>
 	</div>
 	<br>
@@ -43,12 +59,12 @@
 				required='true'
 				class='input-field'
 				placeholder='Your Name'/><br>
-			Phone: <input type='text'
+			Phone:<input type='text'
 				name='phone'
 				maxlength='15'
 				class='tel-number-field long'
 				placeholder='123-456-7890'/><br>
-			Email: <input type='email'
+			Email:  <input type='email'
 				name='email';
 				required='true'
 				class='input-field'

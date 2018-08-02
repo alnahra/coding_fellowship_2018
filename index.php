@@ -71,5 +71,12 @@
 		</div>
 		<div class='film'>
 		</div>
+		<div class='intro'>
+			Welcome to the first comprehensive poliving database for the 90 different
+			municipalities in the St. Louis City and County region! Explore our municipality
+			map for a better understanding of how the county is divided. Educate yourself on specific
+			statistics about each municipality on the municipality data page, or explore the findings 
+			of this ongoing research in the results page.
+		</div>
 	</body>
 </html>

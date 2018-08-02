@@ -1,7 +1,7 @@
 <?php
 $municipality_id = $_REQUEST['id'];
 	include('include/include_all.php');
-	site_header('_____');
+	site_header('MUNICIPALITY INFO');
 echo "
 	<link rel='stylesheet' href='boilerplate_style.css'/>
 	<link rel='stylesheet' href='blog_post_style.css'/> ";
@@ -110,37 +110,37 @@ echo "
 					alt='find_court'
 					width='105px';
 					height='140px'>
-					<br>FIND MUNICIPAL COURT / TICKET INFORMATION<br>
+					<br>FIND MUNICIPAL COURT / TICKET INFORMATION<br><br>
 			<a href='/data/Vehicle-Stops.pdf' target='blank'>
 				<img src='/images/vehicle_stops.png'
 					alt='vehicle_stops'
 					width='105px';
 					height='140px'>
-					<br>VEHICLE STOPS DATA<br>
+					<br>VEHICLE STOPS DATA<br><br>
 			<a href='https://data-stlcogis.opendata.arcgis.com/datasets/2017-st.-louis-county-police-department-ucr-part-1-crime-data' target='blank'>
 				<img src='/images/county_ucr.png'
 					alt='county_ucr_data'
 					width='105px';
 					height='140px'>
-					<br>COUNTY UCR DATA<br>
+					<br>COUNTY UCR DATA<br><br>
 			<a href='/data/UCR-Data-2017.pdf' target='blank'>
 				<img src='/images/ucr_data.png'
 					alt='ucr_data'
 					width='105px';
 					height='140px'>
-					<br>MUNICIPALITY UCR DATA<br>
+					<br>MUNICIPALITY UCR DATA<br><br>
 			<a href='http://www.bettertogetherstl.com/studies/public-finance/financial-data' target='blank'>
 				<img src='/images/cafr_database.png'
 					alt='cafr_database'
 					width='105px';
 					height='140px'>
-					<br>CAFR DATABASE<br>
+					<br>CAFR DATABASE<br><br>
 			<a href='/data/Regional-Spending-Update-Report.pdf' target='blank'>
 				<img src='/images/regional_spending.png'
 					alt='spending_data'
 					width='105px';
 					height='140px'>
-					<br>MUNICIPALITY BUDGETS<br>
+					<br>MUNICIPALITY BUDGETS<br><br>
 			</div>
 		</body>
 	</html>";
