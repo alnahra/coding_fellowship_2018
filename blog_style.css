@@ -177,7 +177,7 @@ h5{
 	font-size: 26;
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 500px){
 	body{
 		background-color: #fff;
 		background-size: 99%;
