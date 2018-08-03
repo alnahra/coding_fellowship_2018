@@ -12,7 +12,7 @@
 	<br><br><br><br><br><br><br><br><br><br>
 	<h1>INSIGHTS & CONCLUSIONS</h1>
 	<br><br><br><br><br>
-	<div class='post'>
+	<div class='post3'>
 		<p>
 			This project is decidely a work in progress.  One of the quickest things I learned was that even those
 			who support the mission of more accountability and transparency in policing are not always able to efficiently exchange
