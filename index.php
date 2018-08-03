@@ -3,6 +3,9 @@
 ?>
 
 <html>
+<head>
+	<meta content='width-device-width, initial-scale=1'>
+</head>
 	<body>
 		<title>STL Police Research Project</title>
 		<link rel='stylesheet' href='style.css'/>

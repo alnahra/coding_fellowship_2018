@@ -4,6 +4,7 @@
 		<head>
 			<title>$title</title>
 			<link rel='stylesheet' href='/boilerplate_style.css'/>
+			<meta content='width-device-width, initial-scale=1'>
 		</head>
 		<body>
 			<div class='top_rectangle'>

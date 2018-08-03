@@ -5,11 +5,6 @@
 <html>
 <head>
 	<script type="text/javascript">
-		function request(){
-			generate_request();
-			finish_message();
-		}
-		
 		function generate_request(){
 			var custodian_name = document.getElementById('custodian_name').value+"<br>";
 			var custodian_street = document.getElementById('custodian_street').value+"<br>";
@@ -20,14 +15,14 @@
 				" I request that you make available to me the following records: ";
 			var records = document.getElementById('records').value+".  ";
 
-			display_message.innerHTML= custodian_name.concat(custodian_street, custodian_address, custodian_zip, date, intro, records);
+			document.getElementById('display_message').innerHTML= custodian_name.concat(custodian_street, custodian_address, custodian_zip, date, intro, records);
 		}
 
 		function finish_message(){
-			var sending = "I request that the records responsive to my request be copied and sent to the following address: <br><ui>";
+			var sending = "I request that the records responsive to my request be copied and sent to the following address: <br><br>";
 			var recipient_street = document.getElementById('recipient_street').value+"<br>";
 			var recipient_address = document.getElementById('recipient_address').value+"<br>";
-			var recipient_zip = document.getElementById('recipient_zip').value+"<br><br></ui>";
+			var recipient_zip = document.getElementById('recipient_zip').value+"<br><br>";
 			var wave = "I request that all fees for locating and copying the records be waived. The information I obtain through this request will be used to "
 			var use = document.getElementById('use').value+".  ";
 			var cost = "Please let me know in advance of any search or copying if the fees will exceed $";
@@ -36,17 +31,22 @@
 			var requester_name = document.getElementById('requester_name').value+"<br>";
 			var requester_street = document.getElementById('requester_street').value+"<br>";
 			var requester_address = document.getElementById('requester_address').value+"<br>";
-			var requester_zip = document.getElementById('requester_address').value+"<br>";
+			var requester_zip = document.getElementById('requester_zip').value+"<br>";
 			var phone = document.getElementById('phone').value+"<br>";
 			var email = document.getElementById('email').value+"<br>";
 
-			if(isset(document.getElementById('recipient_street'))) {
-				finish_message.innerHTML= sending.concat(recipient_street, recipient_address, recipient_zip, wave, use, cost, fee, closed, requester_name, requester_address, requester_zip, phone, email);
+			document.getElementById('finish_message').innerHTML= sending.concat(recipient_street, recipient_address, recipient_zip, wave, use, cost, fee, closed, requester_name, requester_address, requester_zip, phone, email);
+
+			if(document.getElementById('recipient_street').value == '') {
+				finish_message.innerHTML= sending.concat(sending, recipient_street, recipient_address, recipient_zip, wave, use, cost, fee, closed, requester_name, requester_address, requester_zip, phone, email);
 			} else {
 				finish_message.innerHTML= wave.concat(use, cost, fee, closed, requester_name, requester_address, requester_zip, phone, email);
 			};
 		}
-
+		function request(){
+			generate_request();
+			finish_message();
+		}
 	</script>
 	<link rel='stylesheet' href='blog_style.css'/>
 	<link rel='stylesheet' href='boilerplate_style.css'/>
@@ -135,11 +135,17 @@
 						class='textarea-field'
 						placeholder='Records Requested'></textarea><br><br>
 					<input type='text'
+						name='recipient'
+						id='recipient'
+						required='false'
+						class='input-field'
+						placeholder='Recipient'/><br>
+					<input type='text'
 						name='recipient_street'
 						id='recipient_street'
 						required='false'
 						class='input-field'
-						placeholder='Custodian Street Address'/><br>
+						placeholder='Recipient Street Address'/><br>
 					<input type='text'
 						name='recipient_address'
 						id='recipient_address'
@@ -164,7 +170,7 @@
 						id='fee'
 						required='true'
 						class='input-field'
-						placeholder='Willingness to Pay'/><br><br>
+						placeholder='Willingness to Pay'/><br>
 					<br><br><br><br>
 					<input type='text'
 						name='requester_name'
@@ -214,6 +220,6 @@
 </div>
 <br>
 <div class='faq'>
-	<a href='https://ago.mo.gov/missouri-law/sunshine-law/sunshine-law---top-10'>MISSOURI SUNSHINE LAW FAQ</a>
+	<a href='https://ago.mo.gov/missouri-law/sunshine-law/sunshine-law---top-10' target='blank'>MISSOURI SUNSHINE LAW FAQ</a>
 </div>
 </html>
