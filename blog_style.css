@@ -61,6 +61,22 @@ h5{
 	font-size: 20;
 }
 
+.faq{
+	font-family: Verdana;
+	text-align: center;
+	font-size: 20;
+}
+
+.sunshine_muni{
+	float: left;
+	left: 80%;
+}
+
+.sunshine_history{
+	float: left;
+	margin-left: 10px;
+}
+
 .post {
 	background-color: rgba(78, 177, 253, .5);
 	padding: 3px;
@@ -125,7 +141,7 @@ h5{
 }
 
 .sunshine_form {
-	height: 950px;
+	height: 960px;
 	width: 700px;
 	z-index: 1;
 	top: 0;
@@ -146,7 +162,7 @@ h5{
 }
 
 .sunshine_request {
-	height: 950px;
+	height: 960px;
 	width: 700px;
 	z-index: 1;
 	top: 0;
@@ -177,7 +193,7 @@ h5{
 	font-size: 26;
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 750px){
 	body{
 		background-color: #fff;
 		background-size: 99%;

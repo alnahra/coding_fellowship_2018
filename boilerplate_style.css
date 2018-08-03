@@ -189,7 +189,7 @@ font-family: Verdana, sans-serif;
 font-size: 12px;
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 750px){
 	.map_line{display: none;}
 	.data_line{display: none;}
 	.background_line{display: none;}

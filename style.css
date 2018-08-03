@@ -28,7 +28,7 @@ background: rgba(130, 130, 130, 0.35);
 .intro{
 	position: absolute;
 	width: 1330px;
-	height: 45px;
+	height: 50px;
 	top: 24%;
 	background: rgba(0, 0, 0, 0.5);
 	text-align: center;
@@ -247,7 +247,7 @@ a{
 	color: #007BDA;
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 750px){
 	body{
 		background-color: #fff;
 		background-size: 99%;
