@@ -21,7 +21,7 @@ echo "
 				<b>PERCENTAGE OF POPULATION THAT IDENTIFIES AS BLACK</b>: $municipality[race_b]
 				<h3>AREA: $municipality[area] sqm
 			</h3>
-				_______________________________________________________________________________________ <br>
+				________________________________________________________________________ <br>
 			<p>
 				<i>* indicates precinct total </i><br><br>
 				<b>2017 REVENUE</b>: $municipality[revenue] | <b>2017 EXPENDITURE</b>: $municipality[expenditure]
@@ -33,7 +33,7 @@ echo "
 				<br><br> <b>2017 INDEX ARRESTS</b>: $municipality[index_arrests] <br>
 				2017 CLEARANCE RATE: $municipality[clearance]<br><br>
 				<b>2017 NON-INDEX OFFENSES</b>: $municipality[non_index]
-			</p> _______________________________________________________________________________________ <br>
+			</p> ________________________________________________________________________ <br>
 			<body>
 			<p>
 				<i>** indicates county total </i><br><br>
@@ -41,7 +41,7 @@ echo "
 				<b>2017 VEHICLE SEARCHES</b>: $municipality[searches] | <b>2017 ARRESTS FROM VEHICLE STOPS</b>: $municipality[arrests] <br>
 				<b>2017 VEHICLE STOP DISPARITY BY RACE (WHITE / BLACK)</b>: $municipality[disparity]<br><br>
 				<i>disparity = proportion of stops / proportion of population (1 = no disparity, < 1 = under-representation, > 1 = over-representation)
-			</p> _______________________________________________________________________________________ <br>
+			</p> ________________________________________________________________________ <br>
 			<body>
 				</i><h3>KEY INFORMATION</h3><i>
 				Arrest and vehicle stop numbers reflect those reported to the Missouri Highway Patrol's Statistical Analysis

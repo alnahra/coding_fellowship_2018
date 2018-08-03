@@ -102,7 +102,8 @@ h5{
 }
 .post3 {
 	background-color: rgba(78, 177, 253, .5);
-	padding: 3px;
+	padding-left: 15px;
+	padding-right: 15px;
 	margin-top:10px;
 	margin: 10px;
 	font-family: Verdana,sans-serif;
@@ -125,17 +126,29 @@ h5{
 	top: 0;
 	float: right;
 	padding: 15px;
-	margin-top: 65px;
-	margin-right: 100px;
+	margin-top: 400px;
+	margin-left: 73%;
 	background-color: rgba(90, 102, 134, 0.3);
 	overflow-x: hidden;
 	padding-top: 20px;
 	display: block;
-	position: relative;
+	position: absolute;
 	text-align: center;
 	line-height: 1;
 	font-family: Verdana,  Charcoal, sans-serif;
 	color: #1B1E2A;
+}
+
+.resource_box{
+	display: block;
+	background-color: rgba(0, 0, 0, 0.1);
+	padding: 6px;
+	width: 275px;
+	left: 74%;
+	margin-top: 400px;
+	position: absolute;
+	float: center;
+	text-align: center;
 }
 
 .flex_container{
@@ -250,15 +263,4 @@ h5{
 a{
 	color: #007BDA;
 	font-family: Verdana, san-serif;
-}
-
-.resource_box{
-	display: block;
-	background-color: rgba(0, 0, 0, 0.1);
-	padding: 6px;
-	margin-top: 400px;
-	width: 270px;
-	margin-left: 965px;
-	float: center;
-	text-align: center;
 }

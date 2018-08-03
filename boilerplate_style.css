@@ -2,7 +2,7 @@
 /* top border rectangle */
 .top_rectangle{
 position: absolute;
-width: 1368px;
+width: 1220px;
 top: 0%;
 left: 0%;
 right: 0%;
@@ -15,7 +15,7 @@ background: #C4C4C4;
 position: absolute;
 width: 75px;
 height: 0px;
-left: 580px;
+left: 550px;
 top: 92px;
 
 border: 1.5px solid #000000;
@@ -28,7 +28,7 @@ transform: rotate(90deg);
 position: absolute;
 width: 75px;
 height: 0px;
-left: 825px;
+left: 760px;
 top: 92px;
 
 border: 1.5px solid #000000;
@@ -41,7 +41,7 @@ transform: rotate(90deg);
 position: absolute;
 width: 75px;
 height: 0px;
-left: 1070px;
+left: 970px;
 top: 92px;
 
 border: 1.5px solid #000000;
@@ -110,14 +110,14 @@ shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 .results{
 position: absolute;
 height: 10%;
-left: 395%;
+left: 375%;
 top: 60px;
 
 font-family: Verdana, sans-serif;
 font-style: normal;
 font-weight: 700;
 line-height: 33px;
-font-size: 30px;
+font-size: 25px;
 
 color: #007BDA;
 text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
@@ -127,14 +127,14 @@ text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
 .background{
 position: absolute;
 height: 10%;
-left: 530%;
+left: 500%;
 top: 60px;
 
 font-family: Verdana, sans-serif;
 font-style: normal;
 font-weight: 700;
 line-height: 33px;
-font-size: 30px;
+font-size: 25px;
 
 color: #007BDA;
 text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
@@ -143,14 +143,14 @@ text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
 /* data */
 .data{
 position: absolute;
-left: 740%;
+left: 690%;
 top: 45px;
 
 font-family: Verdana, sans-serif;
 font-style: normal;
 font-weight: 900;
 line-height: 33px;
-font-size: 30px;
+font-size: 25px;
 
 color: #007BDA;
 text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
@@ -159,14 +159,14 @@ text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
 /* map */
 .map{
 position: absolute;
-left: 955%;
+left: 870%;
 top: 45px;
 
 font-family: Verdana, sans-serif;
 font-style: normal;
 font-weight: 900;
 line-height: 33px;
-font-size: 30px;
+font-size: 25px;
 
 color: #007BDA;
 text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
@@ -181,7 +181,7 @@ a{
 position: absolute;
 top: 180px;
 left: 0px;
-width: 1348px;
+width: 1200px;
 opacity: 1;
 background-color: #00579A;
 border: 10px solid #00579A;

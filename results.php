@@ -43,7 +43,7 @@
 			<br><br>— <b>The less diverse a municipality, the more disparate its vehicle stops (by race).</b> For example,
 			the municipality of Chesterfield's population is about 86 percent white and 2.5 percent black. Their vehicle stop
 			disparity, which compares the percentage of vehicle stops by race to that community's percentage within the municipality's population,
-			returns 0.94 and 5.81, respectively. 1.00 would signal no disparti. This means that white drivers are stopped near proportionate to their
+			returns 0.94 and 5.81, respectively. 1.00 would signal no disparity. This means that white drivers are stopped near proportionate to their
 			composition of the Chesterfield population, but black drivers are nearly six times more likely to be stopped than
 			would be proportionate. This spread is not uncommon across municipalities.
 		</p>

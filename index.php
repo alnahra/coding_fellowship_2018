@@ -70,7 +70,7 @@
 		</div>
 		<!-- background image -->
 		<div class='lights'>
-			<img src='/images/lights.jpg' width="1350px" height="800px">
+			<img src='/images/lights.jpg' width="1200px" height="600px">
 		</div>
 		<div class='film'>
 		</div>
