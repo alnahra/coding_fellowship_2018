@@ -20,7 +20,7 @@
 					height='300px'>
 			</div>
 			Across the St. Louis City and County region, 66 police departments provide service to 1.31 million
-			residents over about 589 square miles. In total, the county spends almost $500 million on policing each year—much more than comparable cities.
+			residents over about 589 square miles. In total, the county spends almost $500 million on policing each year—much more than comparable metropolitan areas.
 			The demographics of each department do not necessarily represent the
 			demographics of the areas that they serve, and each department varies by size and resources in ways that
 			are seemingly distinct from the size or population density of their municipality. In short, the structure of
@@ -32,19 +32,23 @@
 			miles to the 265 miles covered by the St. Louis County police force.
 		<br><br>
 			For context: if you were to drive from the the St. Louis Galleria Mall to Lambert International Airport, you would pass through fifteen
-			different police jurisdictions and alsmot that many municipalities. But the trip wouldn't even take that many minutes.
+			different police jurisdictions and almost that many municipalities. But the trip wouldn't even take as many minutes.
 		<br><br>
 			The goal of this project is to provide accessible information about these municipalitites and departments—who they are, where they are, and how they are run.
 			The most immediate goal is to examine how policing services are currently being provided in the St. Louis area, while making that information
-			publicly presented in a readable, interesting way. Much of this work builds upon <a href='http://www.bettertogetherstl.com/police-study' target="blank">Better Together St. Louis'</a> efforts since 2014.
+			publicly presented in an accessible and straightforward way. Much of this work builds upon <a href='http://www.bettertogetherstl.com/police-study' target="blank">Better Together St. Louis'</a> efforts towards transparency in policing and government.
 			Other sources of information are the <a href='https://www.ago.mo.gov/' target="blank">Missouri Attorney General's Office</a>, the
 			<a href='https://www.mshp.dps.missouri.gov/MSHPWeb/Root/index.html' target="blank">Missouri Highway Patrol</a>,
-			information on the <a href='http://www.bettertogetherstl.com/police-study' target="blank">St. Louis Open Data website</a>, the <a href='https://www.census.gov/' target="blank">U.S. Census Bureau</a>, and phone calls with departments themselves.
+			information on the <a href='http://www.bettertogetherstl.com/police-study' target="blank">St. Louis Open Data website</a>, the <a href='https://www.census.gov/' target="blank">U.S. Census Bureau</a>, and the municipalities and police departments themselves.
+		</div>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<div class='sunshine_history'>
+			<h3><a href="/sunshine.php">SUNSHINE REQUEST BUILDER</a></h3>
 		</div>
 		<!-- <h2>
 			Historical Context
 		</h2> -->
-		<br><br><br>
+		<!-- <br><br><br>
 			<div class='post2'>
 				St. Louis' history of voluntary community segregation is the main reason for the existence of 90 different municipalities in the metropolitan area in the first place.
 				The practice of legally dividing communities to avoid African American integration became so commonplace that it is now simply accepted
@@ -56,6 +60,6 @@
 				In the past, there has not existed a standardized database from which to pull information about these police forces, makinga any sort of research next to impossible.
 			<br><br>
 				That's where this project comes in.
-			</div>
+			</div> -->
 	</body>
 </html>

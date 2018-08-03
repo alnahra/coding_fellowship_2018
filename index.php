@@ -72,11 +72,12 @@
 		<div class='film'>
 		</div>
 		<div class='intro'>
-			Welcome to the first comprehensive poliving database for the 90 different
-			municipalities in the St. Louis City and County region! Explore our municipality
+			Welcome to the first comprehensive policing database for the 90 different
+			municipalities in the St. Louis City and County region! Explore the municipality
 			map for a better understanding of how the county is divided. Educate yourself on specific
-			statistics about each municipality on the municipality data page, or explore the findings 
-			of this ongoing research in the results page.
+			statistics about each municipality on the municipality data page, explore the findings
+			of this ongoing research in the results, or utilize the <a href='sunshine.php'
+			style='text-decoration: none'>Sunshine Request Builder</a> to begin your own research.
 		</div>
 	</body>
 </html>

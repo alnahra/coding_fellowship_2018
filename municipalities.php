@@ -37,6 +37,9 @@
 			</p>
 		</div>
 	<br>
+	<div class='sunshine_muni'>
+		<h3><a href="/sunshine.php">SUNSHINE REQUEST BUILDER</a></h3>
+	</div>
 	<div class='contact_form'>
 		<?php echo"
 		<form action='' method='POST'>
@@ -113,6 +116,12 @@
 			width='105px';
 			height='140px'>
 			<br>MUNICIPALITY BUDGETS<br><br>
+	<a href='https://ago.mo.gov/docs/default-source/publications/missourisunshinelaw.pdf?sfvrsn=20' target='blank'>
+		<img src='/images/sunshine.png'
+			alt='sunshine'
+			width='105px';
+			height='140px'>
+			<br>MISSOURI SUNSHINE LAW<br><br>
 	</div>
 </body>
 </html>
