@@ -78,6 +78,7 @@
 			</form>";
 			?>
 	</div>
+	<br><br>
 	<div class='resource_box'>
 	<h3></i>EXTERNAL RESOURCES:</h3><br><br><br><br>
 	<a href='/yourstlcourts.com' target='blank'>
