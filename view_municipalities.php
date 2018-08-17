@@ -25,7 +25,7 @@ echo "
 			<p>
 				<i>* indicates precinct total </i><br><br>
 				<b>2017 REVENUE</b>: $municipality[revenue] | <b>2017 EXPENDITURE</b>: $municipality[expenditure]
-				<br><br> <b>POLICE: $municipality[police] <br>
+				<br><br> <b>POLICE FORCE: $municipality[police] <br>
 				CURRENT FULL-TIME OFFICERS</b>: $municipality[officers] | <b>OFFICERS PER 1,000 PEOPLE</b>: $municipality[officers_per]
 				<br><br>
 				<b>2017 TOTAL INDEX OFFENSES</b>: $municipality[total_index]<br>

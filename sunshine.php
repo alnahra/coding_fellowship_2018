@@ -212,7 +212,7 @@
 		</form>";
 			?>
 	</div>
-	<h5><u>SUNSHINE REQUEST EXAMPLE</u></h5>
+	<h5><u>SUNSHINE REQUEST</u></h5>
 	<div class='sunshine_request'>
 		<span id = 'display_message'></span>
 		<span id = 'finish_message'></span>
