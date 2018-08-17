@@ -45,7 +45,7 @@ site_header('PRP Municipality Map');
 			font-family: Verdana, sans-serif;
 			font-size: 20;
 		}
-		@media screen and (max-width: 480px) {
+		@media screen and (max-width: 750px) {
 			h1 {
 				color:#000;
 				float: left;
@@ -135,8 +135,8 @@ site_header('PRP Municipality Map');
 			"lng":"-90.5771",
 			"description":"<h2>Chesterfield</h2><p>Independent Police Force</p><a href='view_municipalities.php?id=16'>Municipality Page</a>"},
 		{"title":"Clarkson",
-			"lat":"38.6184",
-			"lng":"-90.6426",
+			"lat":"38.6200036",
+			"lng":"-90.589370",
 			"description":"<h2>Clarkson Valley</h2><p>Under Chesterfield Police Force</p><a href='view_municipalities.php?id=17'>Municipality Page</a>"},
 		{"title":"Clayton",
 			"lat":"38.6426",
@@ -213,7 +213,7 @@ site_header('PRP Municipality Map');
 		{"title":"Glendale",
 			"lat":"38.5959",
 			"lng":"-90.3771",
-			"description":"<h2>Glendale</h2><p>North County Police Cooperative</p><a href='view_municipalities.php?id=36'>Municipality Page</a>"},
+			"description":"<h2>Glendale</h2><p>Independent Police Force</p><a href='view_municipalities.php?id=36'>Municipality Page</a>"},
 		{"title":"Grantwood Village",
 			"lat":"38.5503",
 			"lng":"-90.3546",
