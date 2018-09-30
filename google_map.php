@@ -333,7 +333,7 @@ site_header('PRP Municipality Map');
 		{"title":"Riverview",
 			"lat":"38.7478",
 			"lng":"-90.3196",
-			"description":"<h2>Riiverview</h2><p>Independent Police Force</p><a href='view_municipalities.php?id=66'>Municipality Page</a>"},
+			"description":"<h2>Riverview</h2><p>Independent Police Force</p><a href='view_municipalities.php?id=66'>Municipality Page</a>"},
 		{"title":"Rock Hill",
 			"lat":"38.6076",
 			"lng":"-90.3785",
