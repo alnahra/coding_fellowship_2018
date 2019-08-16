@@ -37,9 +37,9 @@ echo "
 			<body>
 			<p>
 				<i>** indicates county total </i><br><br>
-				<b>2017 VEHICLE STOPS</b>: $municipality[vehicle_stops] <br>
-				<b>2017 VEHICLE SEARCHES</b>: $municipality[searches] | <b>2017 ARRESTS FROM VEHICLE STOPS</b>: $municipality[arrests] <br>
-				<b>2017 VEHICLE STOP DISPARITY BY RACE (WHITE / BLACK)</b>: $municipality[disparity]<br><br>
+				<b>2018 VEHICLE STOPS</b>: $municipality[vehicle_stops] <br>
+				<b>2018 VEHICLE SEARCHES</b>: $municipality[searches] | <b>2018 ARRESTS FROM VEHICLE STOPS</b>: $municipality[arrests] <br>
+				<b>2018 VEHICLE STOP DISPARITY BY RACE (WHITE / BLACK)</b>: $municipality[disparity]<br><br>
 				<i>disparity = proportion of stops / proportion of population (1 = no disparity, < 1 = under-representation, > 1 = over-representation)
 			</p> ________________________________________________________________________ <br>
 			<body>
