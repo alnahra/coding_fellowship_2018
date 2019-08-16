@@ -35,17 +35,20 @@
 			body’s public records,” some municipalities and police departments are reluctant to share information with
 			the public.  The Northwoods Police Department, which patrols the municipalities of Northwoods, Kinloch,
 			and Norwood Court, refused to report their vehicle stop data to the Missoury Attorney General's Office
-			for its 2017 comprehensive report. Similarly, when Better Together St. Louis conducted their Public Safety policing study,
+			for its 2018 comprehensive report. The same goes for the Breckenridge Hills police department. Similarly, when Better Together St. Louis conducted their Public Safety policing study,
 			the police departments in Beverly Hills, Country Club Hills, Hillsdale, Kinloch, Lakeshire, St. Ann,
 			Vinita Park, and Wellston all refused to provide the group information in accordance with the Missouri
 			Sunshine Law thats mandates this public information be shareable. Other departments made the information incredibly
 			cost-prohibitive, with the same data being free from one department and costing thousands of dollars from another.
 			<br><br>— <b>The less diverse a municipality, the more disparate its vehicle stops (by race).</b> For example,
-			the municipality of Chesterfield's population is about 86 percent white and 2.5 percent black. Their vehicle stop
+			the municipality of Warson Woods' population is about 97 percent white and 3 percent black. Their vehicle stop
 			disparity, which compares the percentage of vehicle stops by race to that community's percentage within the municipality's population,
-			returns 0.94 and 5.81, respectively. 1.00 would signal no disparity. This means that white drivers are stopped near proportionate to their
-			composition of the Chesterfield population, but black drivers are nearly six times more likely to be stopped than
+			returns 0.90 and 15.33, respectively. 1.00 would signal no disparity. This means that white drivers are stopped near proportionate to their
+			composition of the Warson Woods population, but black drivers are nearly sixteen times more likely to be stopped than
 			would be proportionate. This spread is not uncommon across municipalities.
+			<br><br>— <b>In reviewing changes between 2017 and 2018 vehicle stops data, it is clear that of the police departments that reported an increase in vehicle stops,
+				the disparity across racial lines of those stops also increased. </b>This indicates that some police departments in St. Louis County are becoming more discriminatory than they have been in the past.
+				The cause of these increases is not clear from this dataset, and there are no apparent consequences for departments that report more discriminatory practices across time.
 		</p>
 	</div>
 	<br>
