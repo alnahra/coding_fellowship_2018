@@ -34,7 +34,7 @@
 			“each public governmental body shall make available for inspection and copying by the public of that
 			body’s public records,” some municipalities and police departments are reluctant to share information with
 			the public.  The Northwoods Police Department, which patrols the municipalities of Northwoods, Kinloch,
-			and Norwood Court, refused to report their vehicle stop data to the Missoury Attorney General's Office
+			and Norwood Court, refused to report their vehicle stop data to the Missouri Attorney General's Office
 			for its 2018 comprehensive report. The same goes for the Breckenridge Hills police department. Similarly, when Better Together St. Louis conducted their Public Safety policing study,
 			the police departments in Beverly Hills, Country Club Hills, Hillsdale, Kinloch, Lakeshire, St. Ann,
 			Vinita Park, and Wellston all refused to provide the group information in accordance with the Missouri
